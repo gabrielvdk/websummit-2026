@@ -32,8 +32,11 @@ h1{font:700 clamp(22px,4vw,28px)/1.1 var(--f-display);margin:0;letter-spacing:-.
 .tab[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
 .tab .n{font-family:var(--f-mono);font-size:11px;opacity:.8;margin-left:3px}
 input[type=search],select{font:13px var(--f-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px 8px;height:30px}
-input[type=search]{flex:1 1 110px;min-width:0}
-.tabs{display:flex;gap:6px;flex:1 0 100%}
+input[type=search]{flex:1 1 90px;min-width:0}
+#type{width:74px}
+.tabs{display:flex;gap:6px;flex:1 0 100%;flex-wrap:wrap}
+.days{display:flex;gap:4px}
+.day-chip{padding:5px 8px}
 @media (min-width:700px){.tabs{flex:0 0 auto}}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .link{font:500 12px var(--f-body);border:0;background:none;color:var(--accent);cursor:pointer;padding:2px 4px;text-decoration:underline;text-underline-offset:2px}
@@ -74,12 +77,12 @@ textarea{width:100%;margin-top:12px;font:13px var(--f-mono);background:var(--sur
     </div>
   </header>
   <div class="bar">
-    <div class="tabs"><button class="tab" data-view="short">★ Shortlist<span class="n" id="n-short"></span></button>
-    <button class="tab" data-view="seren" title="Buiten je onderwerp, om je blik te verbreden">✦ Serendipity<span class="n" id="n-seren"></span></button>
-    <button class="tab" data-view="mine">Mijn selectie<span class="n" id="n-mine"></span></button>
-    <button class="tab" data-view="all">Alles<span class="n" id="n-all"></span></button></div>
+    <div class="tabs" role="group" aria-label="Lijsten (combineerbaar)"><button class="tab" data-set="short">★ Shortlist<span class="n" id="n-short"></span></button>
+    <button class="tab" data-set="seren" title="Buiten je onderwerp, om je blik te verbreden">✦ Serendipity<span class="n" id="n-seren"></span></button>
+    <button class="tab" data-set="mine">✓ Mijn<span class="n" id="n-mine"></span></button>
+    <button class="tab" id="all">Alles<span class="n" id="n-all"></span></button></div>
     <input type="search" id="q" placeholder="Zoek in titel, beschrijving, sprekers" aria-label="Zoeken">
-    <select id="day" aria-label="Dag"><option value="">Dag</option><option value="10">di 10</option><option value="11">wo 11</option><option value="12">do 12</option></select>
+    <div class="days" role="group" aria-label="Dagen (combineerbaar)"><button class="tab day-chip" data-day="10">di 10</button><button class="tab day-chip" data-day="11">wo 11</button><button class="tab day-chip" data-day="12">do 12</button></div>
     <select id="type" aria-label="Type"><option value="">Type</option></select>
   </div>
   <main id="list" aria-live="polite"></main>
@@ -95,13 +98,15 @@ const S = DATA.s.map(r=>({id:r[0],day:r[1],start:r[2],end:r[3],stage:r[4],track:
 S.sort((a,b)=>(a.day+a.start+a.stage).localeCompare(b.day+b.start+b.stage));
 const BY = Object.fromEntries(S.map(s=>[s.id,s]));
 const SHORT = new Set(DATA.short), SEREN = new Set(DATA.seren||[]);
-let picked=new Set(), view="short", limit=150, db=null, saveTimer=null;
+let picked=new Set(), sets=new Set(["short"]), days=new Set(), limit=150, db=null, saveTimer=null;
 const openRows=new Set(), openGaps=new Set();
 const $=id=>document.getElementById(id);
 
 try{JSON.parse(localStorage.getItem("ws26-picks")||"[]").forEach(i=>BY[i]&&picked.add(i))}catch(e){}
-try{const v=localStorage.getItem("ws26-view");if(v)view=v}catch(e){}
-if(["#mine","#all","#short","#seren"].includes(location.hash))view=location.hash.slice(1);
+try{const v=JSON.parse(localStorage.getItem("ws26-filters")||"null");if(v){sets=new Set(v.sets);days=new Set(v.days)}}catch(e){}
+if(["#mine","#short","#seren"].includes(location.hash))sets=new Set([location.hash.slice(1)]);
+if(location.hash==="#all")sets=new Set();
+function saveFilters(){try{localStorage.setItem("ws26-filters",JSON.stringify({sets:[...sets],days:[...days]}))}catch(e){}}
 [...new Set(S.map(s=>s.type).filter(Boolean))].sort().forEach(t=>{const o=document.createElement("option");o.value=t;o.textContent=t;$("type").appendChild(o)});
 
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -110,8 +115,8 @@ function hl(text,terms){let t=esc(text);for(const w of terms){if(w.length<2)cont
 const mins=t=>{const[h,m]=t.split(":").map(Number);return h*60+m};
 const names=spk=>spk.split("; ").map(x=>x.split(" (")[0]).filter(Boolean);
 
-function filters(){const q=$("q").value.trim().toLowerCase();return{terms:q.split(/\s+/).filter(Boolean),d:$("day").value,ty:$("type").value}}
-function matches(s,f){return(!f.d||s.day===f.d)&&(!f.ty||s.type===f.ty)&&f.terms.every(w=>s.hay.includes(w))}
+function filters(){const q=$("q").value.trim().toLowerCase();return{terms:q.split(/\s+/).filter(Boolean),ty:$("type").value}}
+function matches(s,f){return(!days.size||days.has(s.day))&&(!f.ty||s.type===f.ty)&&f.terms.every(w=>s.hay.includes(w))}
 function pickedSorted(){return[...picked].map(i=>BY[i]).filter(s=>s&&s.start&&s.end).sort((a,b)=>(a.day+a.start).localeCompare(b.day+b.start))}
 function overlaps(){
   const arr=pickedSorted(),o={};
@@ -128,7 +133,7 @@ function rowEl(s,terms,ov){
   const open=openRows.has(s.id)||(terms.length>0);
   el.innerHTML=`<input type="checkbox" id="c-${s.id}" ${picked.has(s.id)?"checked":""} aria-label="Selecteer ${esc(s.title)}">
     <label class="time" for="c-${s.id}">${s.start||"?"}–${s.end||"?"}</label>
-    <div class="body"><div class="title">${hl(s.title,terms)}${view!=="short"&&SHORT.has(s.id)?'<span class="star" title="Op de shortlist">★</span>':""}${view!=="seren"&&SEREN.has(s.id)?'<span class="star" title="Serendipity">✦</span>':""}</div>
+    <div class="body"><div class="title">${hl(s.title,terms)}${!(sets.size===1&&sets.has("short"))&&SHORT.has(s.id)?'<span class="star" title="Op de shortlist">★</span>':""}${!(sets.size===1&&sets.has("seren"))&&SEREN.has(s.id)?'<span class="star" title="Serendipity">✦</span>':""}</div>
     <div class="sub">${hl(sub,terms)}</div>${warn}
     ${open?`<p class="desc">${s.desc?hl(s.desc,terms)+" ":""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Sessiepagina ↗</a></p>`:""}
     <div><button class="link" data-act="toggle">${open?"Minder":"Meer"}</button></div></div>`;
@@ -151,21 +156,25 @@ function gapEl(day,from,to,f,ov){
 }
 
 function render(){
-  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.view===view)));
+  document.querySelectorAll("[data-set]").forEach(b=>b.setAttribute("aria-pressed",String(sets.has(b.dataset.set))));
+  $("all").setAttribute("aria-pressed",String(!sets.size));
+  document.querySelectorAll("[data-day]").forEach(b=>b.setAttribute("aria-pressed",String(days.has(b.dataset.day))));
   $("n-short").textContent=SHORT.size;$("n-seren").textContent=SEREN.size;$("n-all").textContent=S.length;$("n-mine").textContent=picked.size;
   $("clear").hidden=picked.size===0||!$("confirm").hidden;
   const f=filters(),ov=overlaps(),list=$("list");list.innerHTML="";
-  let items=S.filter(s=>view==="all"||(view==="short"?SHORT.has(s.id):view==="seren"?SEREN.has(s.id):picked.has(s.id))).filter(s=>matches(s,f));
-  if(!items.length){list.innerHTML=`<div class="empty">${view==="mine"&&!picked.size?"Nog niets geselecteerd. Vink sessies aan in de shortlist of bij Alles.":"Geen sessies gevonden met deze filters."}</div>`;return}
+  const inSet=s=>!sets.size||(sets.has("short")&&SHORT.has(s.id))||(sets.has("seren")&&SEREN.has(s.id))||(sets.has("mine")&&picked.has(s.id));
+  let items=S.filter(s=>inSet(s)&&matches(s,f));
+  if(!items.length){list.innerHTML=`<div class="empty">${sets.size===1&&sets.has("mine")&&!picked.size?"Nog niets geselecteerd. Vink sessies aan in de shortlist of bij Alles.":"Geen sessies gevonden met deze filters."}</div>`;return}
   const frag=document.createDocumentFragment();let lastDay=null,prev=null;
   for(const s of items.slice(0,limit)){
     if(s.day!==lastDay){const h=document.createElement("h2");h.className="day";h.textContent=DAYN[s.day]||s.day;frag.appendChild(h);lastDay=s.day;prev=null}
-    if(view==="mine"&&!f.terms.length&&prev&&s.start&&prev.end){
-      // free time = from latest end so far today to this start
+    const isPick=picked.has(s.id);
+    if(sets.has("mine")&&isPick&&!f.terms.length&&prev&&s.start&&prev.end){
+      // free time between your own picks: from latest pick end so far today to this pick's start
       if(mins(s.start)-mins(prev.end)>=MIN_GAP)frag.appendChild(gapEl(s.day,prev.end,s.start,f,ov));
     }
     frag.appendChild(rowEl(s,f.terms,ov));
-    if(s.end&&(!prev||!prev.end||mins(s.end)>mins(prev.end)))prev=s;
+    if(isPick&&s.end&&(!prev||!prev.end||mins(s.end)>mins(prev.end)))prev=s;
   }
   list.appendChild(frag);
   if(items.length>limit){const b=document.createElement("button");b.className="link more";b.textContent=`Toon meer (${items.length-limit} resterend)`;b.onclick=()=>{limit+=300;render()};list.appendChild(b)}
@@ -188,8 +197,10 @@ function persist(){
   },700);
 }
 
-document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{view=b.dataset.view;limit=150;try{localStorage.setItem("ws26-view",view)}catch(e){};render();window.scrollTo({top:0})}));
-["q","day","type"].forEach(id=>$(id).addEventListener("input",()=>{limit=150;render()}));
+document.querySelectorAll("[data-set]").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.set;sets.has(k)?sets.delete(k):sets.add(k);limit=150;saveFilters();render()}));
+$("all").addEventListener("click",()=>{sets.clear();limit=150;saveFilters();render()});
+document.querySelectorAll("[data-day]").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.day;days.has(k)?days.delete(k):days.add(k);limit=150;saveFilters();render()}));
+["q","type"].forEach(id=>$(id).addEventListener("input",()=>{limit=150;render()}));
 $("copy").addEventListener("click",async()=>{const t=selectionText();
   try{await navigator.clipboard.writeText(t);$("copied").hidden=false;setTimeout(()=>$("copied").hidden=true,1800)}
   catch(e){const f=$("fallback");f.value=t;f.hidden=false;f.focus();f.select()}});
