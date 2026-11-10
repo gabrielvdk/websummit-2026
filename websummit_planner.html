@@ -41,6 +41,12 @@ input[type=search]{flex:1 1 90px;min-width:0}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .link{font:500 12px var(--f-body);border:0;background:none;color:var(--accent);cursor:pointer;padding:2px 4px;text-decoration:underline;text-underline-offset:2px}
 main{display:grid;gap:4px;padding-top:6px}
+html{overflow-anchor:none}
+.bar.compact .tabs,.bar.compact .days{display:none}
+#now{border-color:var(--warn);color:var(--warn);font-weight:600}
+.nowline{display:flex;align-items:center;gap:8px;font:600 12px var(--f-mono);color:var(--warn);margin:4px 0;scroll-margin-top:calc(env(safe-area-inset-top,0px) + 64px)}
+.nowline::after{content:"";flex:1;height:2px;background:var(--warn);border-radius:1px}
+#nowmsg{font-size:12px;color:var(--muted)}
 h2.day{font:600 12px var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 4px}
 .row{display:grid;grid-template-columns:22px 86px minmax(0,1fr);gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
 .row.sel{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
@@ -82,6 +88,7 @@ textarea{width:100%;margin-top:12px;font:13px var(--f-mono);background:var(--sur
     <button class="tab" data-set="mine">✓ Mijn<span class="n" id="n-mine"></span></button>
     <button class="tab" id="all">Alles<span class="n" id="n-all"></span></button></div>
     <input type="search" id="q" placeholder="Zoek in titel, beschrijving, sprekers" aria-label="Zoeken">
+    <button class="tab" id="now" title="Spring naar vandaag en het huidige tijdstip">Nu</button><span id="nowmsg" hidden></span>
     <div class="days" role="group" aria-label="Dagen (combineerbaar)"><button class="tab day-chip" data-day="10">di 10</button><button class="tab day-chip" data-day="11">wo 11</button><button class="tab day-chip" data-day="12">do 12</button></div>
     <select id="type" aria-label="Type"><option value="">Type</option></select>
   </div>
@@ -166,6 +173,7 @@ function render(){
   let items=S.filter(s=>inSet(s)&&matches(s,f));
   if(!items.length){list.innerHTML=`<div class="empty">${sets.size===1&&sets.has("mine")&&!picked.size?"Nog niets geselecteerd. Vink sessies aan in de shortlist of bij Alles.":"Geen sessies gevonden met deze filters."}</div>`;return}
   const frag=document.createDocumentFragment();let lastDay=null,prev=null;
+  const N=lisbonNow();let nowDone=false;
   for(const s of items.slice(0,limit)){
     if(s.day!==lastDay){const h=document.createElement("h2");h.className="day";h.textContent=DAYN[s.day]||s.day;frag.appendChild(h);lastDay=s.day;prev=null}
     const isPick=picked.has(s.id);
@@ -173,6 +181,7 @@ function render(){
       // free time between your own picks: from latest pick end so far today to this pick's start
       if(mins(s.start)-mins(prev.end)>=MIN_GAP)frag.appendChild(gapEl(s.day,prev.end,s.start,f,ov));
     }
+    if(!nowDone&&N.conf&&s.day===N.day&&s.start&&mins(s.start)>=mins(N.hm)-20){const nl=document.createElement("div");nl.className="nowline";nl.id="nowline";nl.textContent="Nu "+N.hm;frag.appendChild(nl);nowDone=true}
     frag.appendChild(rowEl(s,f.terms,ov));
     if(isPick&&s.end&&(!prev||!prev.end||mins(s.end)>mins(prev.end)))prev=s;
   }
@@ -208,7 +217,44 @@ $("clear").addEventListener("click",()=>{$("confirm").hidden=false;$("clear").hi
 $("clear-no").addEventListener("click",()=>{$("confirm").hidden=true;render()});
 $("clear-yes").addEventListener("click",()=>{picked.clear();$("confirm").hidden=true;persist();render()});
 
+// --- "Nu": today's day + current Lisbon time ---
+function lisbonNow(){
+  const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Lisbon",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+  const date=`${p.year}-${p.month}-${p.day}`;
+  return{date,day:p.day,hm:`${p.hour}:${p.minute}`,conf:["2026-11-10","2026-11-11","2026-11-12"].includes(date)};
+}
+function goNow(manual){
+  const N=lisbonNow();
+  if(!N.conf){if(manual){$("nowmsg").textContent="Vandaag is geen congresdag";$("nowmsg").hidden=false;setTimeout(()=>$("nowmsg").hidden=true,2500)}return}
+  days=new Set([N.day]);saveFilters();limit=Infinity;render();
+  const el=$("nowline");
+  if(el){userMoved=false;const align=()=>{const n=$("nowline");if(n&&!userMoved)n.scrollIntoView({block:"start"})};
+    align();requestAnimationFrame(align);setTimeout(align,300);setTimeout(align,900);document.fonts?.ready.then(align)}
+  else if(manual){$("nowmsg").textContent="Geen sessies meer vandaag in deze lijst";$("nowmsg").hidden=false;setTimeout(()=>$("nowmsg").hidden=true,2500)}
+}
+let userMoved=false;
+["wheel","touchstart","keydown"].forEach(ev=>window.addEventListener(ev,()=>{userMoved=true},{passive:true}));
+$("now").addEventListener("click",()=>goNow(true));
+let hiddenAt=0;
+document.addEventListener("visibilitychange",()=>{
+  if(document.hidden){hiddenAt=Date.now();return}
+  if(Date.now()-hiddenAt>30000)goNow(false); // back after 30s+ away: jump to now
+});
+setInterval(()=>{if(!document.hidden&&$("nowline")){const N=lisbonNow();$("nowline").textContent="Nu "+N.hm}},30000);
+
+// --- hide list/day pills while scrolling down, show again when scrolling up ---
+let lastY=window.scrollY,lockUntil=0;
+window.addEventListener("scroll",()=>{
+  const y=window.scrollY,bar=document.querySelector(".bar"),top=document.querySelector("header").offsetHeight;
+  if(Date.now()<lockUntil){lastY=y;clearTimeout(window._recheck);window._recheck=setTimeout(()=>window.dispatchEvent(new Event("scroll")),220);return}
+  let want=bar.classList.contains("compact");
+  if(y<=top)want=false; else if(y>lastY+6)want=true; else if(y<lastY-12)want=false;
+  if(want!==bar.classList.contains("compact")){bar.classList.toggle("compact",want);lockUntil=Date.now()+200}
+  lastY=y;
+},{passive:true});
+
 render();
+goNow(false);
 (async()=>{
   try{
     db=await window.claude?.use?.("db");if(!db)return;
