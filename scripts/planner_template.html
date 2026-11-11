@@ -1,0 +1,273 @@
+<title>Web Summit 2026 Planner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
+<style>
+/* Layout: one reading column; a single slim sticky control row; rows = time rail + content, like a printed programme */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#142030; --muted:#5b6778; --line:#dde2ea;
+  --accent:#1f4fa3; --accent-soft:#e3ebf8; --star:#b8760b; --star-soft:#fbf0dc; --warn:#b3261e; --warn-soft:#fbe6e4; --ok:#2e7d4f;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1520; --surface:#161e2b; --ink:#e6ebf2; --muted:#9aa6b8; --line:#273244;
+  --accent:#8fb0ec; --accent-soft:#1d2a40; --star:#e2a94a; --star-soft:#2f2615; --warn:#f08a80; --warn-soft:#3a1d1b; --ok:#6fcf97; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1520; --surface:#161e2b; --ink:#e6ebf2; --muted:#9aa6b8; --line:#273244;
+  --accent:#8fb0ec; --accent-soft:#1d2a40; --star:#e2a94a; --star-soft:#2f2615; --warn:#f08a80; --warn-soft:#3a1d1b; --ok:#6fcf97; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:820px;margin:0 auto}
+header{padding-block:22px 6px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font:700 clamp(22px,4vw,28px)/1.1 var(--f-display);margin:0;letter-spacing:-.01em}
+.tools{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted)}
+.tools .dot{width:7px;height:7px;border-radius:50%;background:var(--muted);display:inline-block;margin-right:5px}
+.tools .ok .dot{background:var(--ok)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--line)}
+.tab{font:500 13px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:5px 10px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.tab[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.tab .n{font-family:var(--f-mono);font-size:11px;opacity:.8;margin-left:3px}
+input[type=search],select{font:13px var(--f-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px 8px;height:30px}
+input[type=search]{flex:1 1 90px;min-width:0}
+#type{width:74px}
+.tabs{display:flex;gap:6px;flex:1 0 100%;flex-wrap:wrap}
+.days{display:flex;gap:4px}
+.day-chip{padding:5px 8px}
+@media (min-width:700px){.tabs{flex:0 0 auto}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.link{font:500 12px var(--f-body);border:0;background:none;color:var(--accent);cursor:pointer;padding:2px 4px;text-decoration:underline;text-underline-offset:2px}
+main{display:grid;gap:4px;padding-top:6px}
+html{overflow-anchor:none}
+.bar.compact .tabs,.bar.compact .days{display:none}
+#now{border-color:var(--warn);color:var(--warn);font-weight:600}
+.nowline{display:flex;align-items:center;gap:8px;font:600 12px var(--f-mono);color:var(--warn);margin:4px 0;scroll-margin-top:calc(env(safe-area-inset-top,0px) + 64px)}
+.nowline::after{content:"";flex:1;height:2px;background:var(--warn);border-radius:1px}
+#nowmsg{font-size:12px;color:var(--muted)}
+h2.day{font:600 12px var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 4px}
+.row{display:grid;grid-template-columns:22px 86px minmax(0,1fr);gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.row.sel{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.row input[type=checkbox]{width:17px;height:17px;margin-top:2px;accent-color:var(--accent);cursor:pointer}
+.time{font:500 13px/1.5 var(--f-mono);font-variant-numeric:tabular-nums;cursor:pointer}
+.body{min-width:0;display:grid;gap:2px}
+.title{font-weight:600;line-height:1.35}
+.title .star{color:var(--star);font-size:12px;margin-left:4px}
+.sub{font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
+.warn{color:var(--warn);font-weight:500}
+.desc{font-size:13.5px;color:var(--muted);margin:4px 0 0;max-width:68ch}
+.desc a{color:var(--accent)}
+mark{background:var(--star-soft);color:inherit;padding:0 1px;border-radius:2px}
+.gap{display:flex;align-items:center;gap:10px;padding:2px 0 2px 32px;font:12px var(--f-mono);color:var(--muted)}
+.gap::before{content:"";width:1px;height:18px;background:var(--line)}
+.gapbtn{font:500 12px var(--f-body);border:1px dashed var(--accent);color:var(--accent);background:transparent;border-radius:999px;padding:3px 10px;cursor:pointer}
+.gapbtn[aria-expanded="true"]{background:var(--accent-soft);border-style:solid}
+.gaplist{display:grid;gap:4px;margin:2px 0 6px 32px;padding-left:10px;border-left:2px solid var(--accent-soft)}
+.gaplist .row{background:transparent}
+.empty{padding:40px 12px;text-align:center;color:var(--muted)}
+.more{justify-self:center;margin-top:10px}
+textarea{width:100%;margin-top:12px;font:13px var(--f-mono);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px}
+@media (max-width:560px){.row{grid-template-columns:22px minmax(0,1fr)}.time,.body{grid-column:2}.gap,.gaplist{margin-left:0;padding-left:0}.gap{padding-left:8px}.gaplist{padding-left:8px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Web Summit 2026 Planner</h1>
+    <div class="tools">
+      <span id="save"><span class="dot"></span>Lokaal bewaard</span>
+      <button class="link" id="copy">Kopieer selectie</button><span id="copied" hidden>Gekopieerd</span>
+      <button class="link" id="clear" hidden>Wis</button>
+      <span id="confirm" hidden>Alles wissen? <button class="link" id="clear-yes">Ja</button><button class="link" id="clear-no">Nee</button></span>
+    </div>
+  </header>
+  <div class="bar">
+    <div class="tabs" role="group" aria-label="Lijsten (combineerbaar)"><button class="tab" data-set="short">★ Shortlist<span class="n" id="n-short"></span></button>
+    <button class="tab" data-set="seren" title="Buiten je onderwerp, om je blik te verbreden">✦ Serendipity<span class="n" id="n-seren"></span></button>
+    <button class="tab" data-set="mine">✓ Mijn<span class="n" id="n-mine"></span></button>
+    <button class="tab" id="all">Alles<span class="n" id="n-all"></span></button></div>
+    <input type="search" id="q" placeholder="Zoek in titel, beschrijving, sprekers" aria-label="Zoeken">
+    <button class="tab" id="now" title="Spring naar vandaag en het huidige tijdstip">Nu</button><span id="nowmsg" hidden></span>
+    <div class="days" role="group" aria-label="Dagen (combineerbaar)"><button class="tab day-chip" data-day="10">di 10</button><button class="tab day-chip" data-day="11">wo 11</button><button class="tab day-chip" data-day="12">do 12</button></div>
+    <select id="type" aria-label="Type"><option value="">Type</option></select>
+  </div>
+  <main id="list" aria-live="polite"></main>
+  <textarea id="fallback" hidden readonly rows="8"></textarea>
+</div>
+
+<script>
+const DATA = /*DATA*/null;
+const DAYN={"10":"Dinsdag 10 november","11":"Woensdag 11 november","12":"Donderdag 12 november"};
+const MIN_GAP=10; // minutes of free time before a gap button appears
+const S = DATA.s.map(r=>({id:r[0],day:r[1],start:r[2],end:r[3],stage:r[4],track:r[5],type:r[6],title:r[7],desc:r[8],spk:r[9],host:r[10],url:r[11],
+  hay:(r[7]+" "+r[8]+" "+r[9]+" "+r[10]+" "+r[5]).toLowerCase()}));
+S.sort((a,b)=>(a.day+a.start+a.stage).localeCompare(b.day+b.start+b.stage));
+const BY = Object.fromEntries(S.map(s=>[s.id,s]));
+const SHORT = new Set(DATA.short), SEREN = new Set(DATA.seren||[]);
+let savePending=false, picked=new Set(), sets=new Set(["short"]), days=new Set(), limit=150, db=null, saveTimer=null;
+const openRows=new Set(), openGaps=new Set();
+const $=id=>document.getElementById(id);
+
+try{JSON.parse(localStorage.getItem("ws26-picks")||"[]").forEach(i=>BY[i]&&picked.add(i))}catch(e){}
+try{const v=JSON.parse(localStorage.getItem("ws26-filters")||"null");if(v){sets=new Set(v.sets);days=new Set(v.days)}}catch(e){}
+if(["#mine","#short","#seren"].includes(location.hash))sets=new Set([location.hash.slice(1)]);
+if(location.hash==="#all")sets=new Set();
+function saveFilters(){try{localStorage.setItem("ws26-filters",JSON.stringify({sets:[...sets],days:[...days]}))}catch(e){}}
+[...new Set(S.map(s=>s.type).filter(Boolean))].sort().forEach(t=>{const o=document.createElement("option");o.value=t;o.textContent=t;$("type").appendChild(o)});
+
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const reEsc=w=>w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+function hl(text,terms){let t=esc(text);for(const w of terms){if(w.length<2)continue;t=t.replace(new RegExp("("+reEsc(w)+")","gi"),"<mark>$1</mark>")}return t}
+const mins=t=>{const[h,m]=t.split(":").map(Number);return h*60+m};
+const names=spk=>spk.split("; ").map(x=>x.split(" (")[0]).filter(Boolean);
+
+function filters(){const q=$("q").value.trim().toLowerCase();return{terms:q.split(/\s+/).filter(Boolean),ty:$("type").value}}
+function matches(s,f){return(!days.size||days.has(s.day))&&(!f.ty||s.type===f.ty)&&f.terms.every(w=>s.hay.includes(w))}
+function pickedSorted(){return[...picked].map(i=>BY[i]).filter(s=>s&&s.start&&s.end).sort((a,b)=>(a.day+a.start).localeCompare(b.day+b.start))}
+function overlaps(){
+  const arr=pickedSorted(),o={};
+  for(let i=0;i<arr.length;i++)for(let j=i+1;j<arr.length&&arr[j].day===arr[i].day;j++){
+    const a=arr[i],b=arr[j];if(mins(b.start)<mins(a.end)){(o[a.id]??=[]).push(b.title);(o[b.id]??=[]).push(a.title)}}
+  return o;
+}
+
+function rowEl(s,terms,ov){
+  const el=document.createElement("div");el.className="row"+(picked.has(s.id)?" sel":"");
+  const who=names(s.spk),whoTxt=who.length?(who.slice(0,3).join(", ")+(who.length>3?` +${who.length-3}`:"")):(s.host?"Host: "+s.host:"");
+  const sub=[...new Set([s.stage,s.track].filter(Boolean))].join(" · ")+(whoTxt?" — "+whoTxt:"");
+  const warn=picked.has(s.id)&&ov[s.id]?`<div class="sub warn" title="${esc(ov[s.id].join(" · "))}">⚠ Overlapt met ${ov[s.id].length===1?esc(ov[s.id][0]):ov[s.id].length+" sessies"}</div>`:"";
+  const open=openRows.has(s.id)||(terms.length>0);
+  el.innerHTML=`<input type="checkbox" id="c-${s.id}" ${picked.has(s.id)?"checked":""} aria-label="Selecteer ${esc(s.title)}">
+    <label class="time" for="c-${s.id}">${s.start||"?"}–${s.end||"?"}</label>
+    <div class="body"><div class="title">${hl(s.title,terms)}${!(sets.size===1&&sets.has("short"))&&SHORT.has(s.id)?'<span class="star" title="Op de shortlist">★</span>':""}${!(sets.size===1&&sets.has("seren"))&&SEREN.has(s.id)?'<span class="star" title="Serendipity">✦</span>':""}</div>
+    <div class="sub">${hl(sub,terms)}</div>${warn}
+    ${open?`<p class="desc">${s.desc?hl(s.desc,terms)+" ":""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Sessiepagina ↗</a></p>`:""}
+    <div><button class="link" data-act="toggle">${open?"Minder":"Meer"}</button></div></div>`;
+  el.querySelector("input").addEventListener("change",e=>{e.target.checked?picked.add(s.id):picked.delete(s.id);persist();render()});
+  el.querySelector('[data-act="toggle"]').addEventListener("click",()=>{open?openRows.delete(s.id):openRows.add(s.id);if(terms.length&&open)$("q").value="";render()});
+  return el;
+}
+
+function gapEl(day,from,to,f,ov){
+  const key=day+from+to, cands=S.filter(s=>s.day===day&&s.start&&s.end&&!picked.has(s.id)&&mins(s.start)>=mins(from)&&mins(s.end)<=mins(to)&&(!f.ty||s.type===f.ty));
+  const wrap=document.createDocumentFragment(), g=document.createElement("div"); g.className="gap";
+  const len=mins(to)-mins(from), lenTxt=len>=60?`${Math.floor(len/60)}u${len%60?String(len%60).padStart(2,"0"):""}`:`${len} min`;
+  g.innerHTML=`<span>${lenTxt} vrij</span>`+(cands.length?`<button class="gapbtn" aria-expanded="${openGaps.has(key)}">${openGaps.has(key)?"Verberg":"Toon"} ${cands.length} sessie${cands.length>1?"s":""} ${from}–${to}</button>`:"<span>geen sessies die hierin passen</span>");
+  wrap.appendChild(g);
+  if(cands.length){
+    g.querySelector("button").addEventListener("click",()=>{openGaps.has(key)?openGaps.delete(key):openGaps.add(key);render()});
+    if(openGaps.has(key)){const l=document.createElement("div");l.className="gaplist";cands.forEach(s=>l.appendChild(rowEl(s,[],ov)));wrap.appendChild(l)}
+  }
+  return wrap;
+}
+
+function render(){
+  document.querySelectorAll("[data-set]").forEach(b=>b.setAttribute("aria-pressed",String(sets.has(b.dataset.set))));
+  $("all").setAttribute("aria-pressed",String(!sets.size));
+  document.querySelectorAll("[data-day]").forEach(b=>b.setAttribute("aria-pressed",String(days.has(b.dataset.day))));
+  $("n-short").textContent=SHORT.size;$("n-seren").textContent=SEREN.size;$("n-all").textContent=S.length;$("n-mine").textContent=picked.size;
+  $("clear").hidden=picked.size===0||!$("confirm").hidden;
+  const f=filters(),ov=overlaps(),list=$("list");list.innerHTML="";
+  const inSet=s=>!sets.size||(sets.has("short")&&SHORT.has(s.id))||(sets.has("seren")&&SEREN.has(s.id))||(sets.has("mine")&&picked.has(s.id));
+  let items=S.filter(s=>inSet(s)&&matches(s,f));
+  if(!items.length){list.innerHTML=`<div class="empty">${sets.size===1&&sets.has("mine")&&!picked.size?"Nog niets geselecteerd. Vink sessies aan in de shortlist of bij Alles.":"Geen sessies gevonden met deze filters."}</div>`;return}
+  const frag=document.createDocumentFragment();let lastDay=null,prev=null;
+  const N=lisbonNow();let nowDone=false;
+  for(const s of items.slice(0,limit)){
+    if(s.day!==lastDay){const h=document.createElement("h2");h.className="day";h.textContent=DAYN[s.day]||s.day;frag.appendChild(h);lastDay=s.day;prev=null}
+    const isPick=picked.has(s.id);
+    if(sets.has("mine")&&isPick&&!f.terms.length&&prev&&s.start&&prev.end){
+      // free time between your own picks: from latest pick end so far today to this pick's start
+      if(mins(s.start)-mins(prev.end)>=MIN_GAP)frag.appendChild(gapEl(s.day,prev.end,s.start,f,ov));
+    }
+    if(!nowDone&&N.conf&&s.day===N.day&&s.start&&mins(s.start)>=mins(N.hm)-20){const nl=document.createElement("div");nl.className="nowline";nl.id="nowline";nl.textContent="Nu "+N.hm;frag.appendChild(nl);nowDone=true}
+    frag.appendChild(rowEl(s,f.terms,ov));
+    if(isPick&&s.end&&(!prev||!prev.end||mins(s.end)>mins(prev.end)))prev=s;
+  }
+  list.appendChild(frag);
+  if(items.length>limit){const b=document.createElement("button");b.className="link more";b.textContent=`Toon meer (${items.length-limit} resterend)`;b.onclick=()=>{limit+=300;render()};list.appendChild(b)}
+}
+
+function selectionText(){
+  const ov=overlaps();let out=[],lastDay=null;
+  pickedSorted().forEach(s=>{if(s.day!==lastDay){out.push("",DAYN[s.day]);lastDay=s.day}
+    out.push(`${s.start}–${s.end} | ${s.stage} | ${s.title}${ov[s.id]?"  ⚠ overlap":""} [${s.id}]`)});
+  return("Mijn Web Summit-selectie ("+picked.size+" sessies)\n"+out.join("\n")).trim();
+}
+function setStatus(ok,text){$("save").className=ok?"ok":"";$("save").innerHTML=`<span class="dot"></span>${text}`}
+function persist(){
+  try{localStorage.setItem("ws26-picks",JSON.stringify([...picked]))}catch(e){}
+  if(!db)return;
+  clearTimeout(saveTimer);setStatus(false,"Opslaan…");
+  savePending=true;saveTimer=setTimeout(async()=>{
+    try{await db.doc("picks/current").set({ids:[...picked],updatedAt:new Date().toISOString()});setStatus(true,"Opgeslagen")}
+    catch(e){setStatus(false,"Alleen lokaal bewaard")}
+    savePending=false;
+  },700);
+}
+
+document.querySelectorAll("[data-set]").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.set;sets.has(k)?sets.delete(k):sets.add(k);limit=150;saveFilters();render()}));
+$("all").addEventListener("click",()=>{sets.clear();limit=150;saveFilters();render()});
+document.querySelectorAll("[data-day]").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.day;days.has(k)?days.delete(k):days.add(k);limit=150;saveFilters();render()}));
+["q","type"].forEach(id=>$(id).addEventListener("input",()=>{limit=150;render()}));
+$("copy").addEventListener("click",async()=>{const t=selectionText();
+  try{await navigator.clipboard.writeText(t);$("copied").hidden=false;setTimeout(()=>$("copied").hidden=true,1800)}
+  catch(e){const f=$("fallback");f.value=t;f.hidden=false;f.focus();f.select()}});
+$("clear").addEventListener("click",()=>{$("confirm").hidden=false;$("clear").hidden=true});
+$("clear-no").addEventListener("click",()=>{$("confirm").hidden=true;render()});
+$("clear-yes").addEventListener("click",()=>{picked.clear();$("confirm").hidden=true;persist();render()});
+
+// --- "Nu": today's day + current Lisbon time ---
+function lisbonNow(){
+  const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Lisbon",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+  const date=`${p.year}-${p.month}-${p.day}`;
+  return{date,day:p.day,hm:`${p.hour}:${p.minute}`,conf:["2026-11-10","2026-11-11","2026-11-12"].includes(date)};
+}
+function goNow(manual){
+  const N=lisbonNow();
+  if(!N.conf){if(manual){$("nowmsg").textContent="Vandaag is geen congresdag";$("nowmsg").hidden=false;setTimeout(()=>$("nowmsg").hidden=true,2500)}return}
+  days=new Set([N.day]);saveFilters();limit=Infinity;render();
+  const el=$("nowline");
+  if(el){userMoved=false;const align=()=>{const n=$("nowline");if(n&&!userMoved)n.scrollIntoView({block:"start"})};
+    align();requestAnimationFrame(align);setTimeout(align,300);setTimeout(align,900);document.fonts?.ready.then(align)}
+  else if(manual){$("nowmsg").textContent="Geen sessies meer vandaag in deze lijst";$("nowmsg").hidden=false;setTimeout(()=>$("nowmsg").hidden=true,2500)}
+}
+let userMoved=false;
+["wheel","touchstart","keydown"].forEach(ev=>window.addEventListener(ev,()=>{userMoved=true},{passive:true}));
+$("now").addEventListener("click",()=>goNow(true));
+let hiddenAt=0;
+document.addEventListener("visibilitychange",()=>{
+  if(document.hidden){hiddenAt=Date.now();return}
+  if(Date.now()-hiddenAt>30000)goNow(false); // back after 30s+ away: jump to now
+});
+setInterval(()=>{if(!document.hidden&&$("nowline")){const N=lisbonNow();$("nowline").textContent="Nu "+N.hm}},30000);
+
+// --- hide list/day pills while scrolling down, show again when scrolling up ---
+let lastY=window.scrollY,lockUntil=0;
+window.addEventListener("scroll",()=>{
+  const y=window.scrollY,bar=document.querySelector(".bar"),top=document.querySelector("header").offsetHeight;
+  if(Date.now()<lockUntil){lastY=y;clearTimeout(window._recheck);window._recheck=setTimeout(()=>window.dispatchEvent(new Event("scroll")),220);return}
+  let want=bar.classList.contains("compact");
+  if(y<=top)want=false; else if(y>lastY+6)want=true; else if(y<lastY-12)want=false;
+  if(want!==bar.classList.contains("compact")){bar.classList.toggle("compact",want);lockUntil=Date.now()+200}
+  lastY=y;
+},{passive:true});
+
+render();
+goNow(false);
+(async()=>{
+  try{
+    db=await window.claude?.use?.("db");if(!db)return;
+    let first=true;
+    // live: picks changed on another device (or by Claude) show up here without a reload
+    db.doc("picks/current").onSnapshot(snap=>{
+      if(savePending)return; // our own unsaved ticks win until they are written
+      if(snap.exists){const ids=(snap.data().ids||[]).filter(i=>BY[i]);
+        if(ids.length!==picked.size||ids.some(i=>!picked.has(i))){picked=new Set(ids);try{localStorage.setItem("ws26-picks",JSON.stringify([...picked]))}catch(e){};render()}}
+      else if(first&&picked.size)persist();
+      if(first){setStatus(true,"Opgeslagen");first=false}
+    },()=>setStatus(false,"Alleen lokaal bewaard"));
+  }catch(e){db=null}
+})();
+</script>

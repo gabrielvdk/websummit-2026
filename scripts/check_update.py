@@ -75,6 +75,7 @@ if PICKS:
         if o["dag"] not in (DAY,prevday): continue
         x=now.get(full[0]) or info(full[0])
         pk.append(dict(title=o["titel"],was=f'{o["dag"]} {o["start"]}-{o["eind"]} {o["stage"]}',now=(f'{x["day"]} {x["start"]}-{x["end"]} {x["stage"]}' if x else "no page (404)")))
+json.dump(allf,open("out/listing.json","w"),indent=1,ensure_ascii=False)
 json.dump(dict(summary=summary,picks=pk,**out),open("out/diff.json","w"),indent=1,ensure_ascii=False)
 print(json.dumps(summary,indent=1))
 for p in pk: print(("SAME " if p["was"]==p["now"] else "CHANGED ")+p["title"],"|",p["was"],"->",p["now"])
