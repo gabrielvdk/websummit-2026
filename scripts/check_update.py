@@ -31,7 +31,9 @@ def listing(day):
         p+=1
     return found,p-2
 allf={}; lastpage=None
-for n in range(4):
+if os.environ.get("REUSE") and os.path.exists("out/listing.json"):   # recompute from an earlier download
+    allf=json.load(open("out/listing.json")); lastpage=json.load(open("out/diff.json"))["summary"]["last_page"]
+for n in range(0 if allf else 4):
     f,lastpage=listing(DAY); new=set(f)-set(allf)
     for k,v in f.items(): allf.setdefault(k,v)
     S.L("PASS",n+1,"found",len(f),"new",len(new))
@@ -45,9 +47,16 @@ def info(i):
     if not os.path.exists(f): return None
     s=json.load(open(f)); st=s.get("starts_at") or ""; en=s.get("ends_at") or ""
     return dict(day=st[:10],start=st[11:16],end=en[11:16],stage=(s.get("location") or {}).get("name",""),title=s.get("title",""))
+from datetime import datetime
+def card_hm(t):
+    try: return datetime.strptime(t.replace(".",":"),"%I:%M%p").strftime("%H:%M")
+    except Exception: return t or ""
+# The overview cards are fresher than the session pages (pages lag behind moves), so day/time/stage come from the card.
 now={}
 for it in items:
-    now[it["id"]]=info(it["id"]) or dict(day=DAY,start=it["start_card"],end=it["end_card"],stage=it["stage_card"],title=it["title"],nopage=True)
+    x=info(it["id"]) or dict(title=it["title"],nopage=True)
+    x.update(day=DAY,start=card_hm(it["start_card"]),end=card_hm(it["end_card"]),stage=it["stage_card"].strip())
+    now[it["id"]]=x
 for it in extra:
     x=info(it["id"])
     if x and x["day"]==DAY: x["hidden"]=True; now[it["id"]]=x

@@ -27,7 +27,7 @@ for d in sys.argv[1:]:
     diff=json.load(open(f"{d}/out/diff.json"))
     for f in glob.glob(f"{d}/raw/*.json"):
         s=json.load(open(f)); i=s["id"]; st=s.get("starts_at") or ""
-        if st[:10] not in CONF: continue
+        if st[:10] not in CONF and i not in lst: continue
         parts=s.get("timeslot_participations") or []; spk=[]; orgs=[]
         for p in parts:
             n=(p.get("name") or "").strip(); ex=", ".join(x for x in [(p.get("job_title") or "").strip(),(p.get("company_name") or "").strip()] if x)
@@ -37,7 +37,9 @@ for d in sys.argv[1:]:
         track=(lst.get(i) or {}).get("track") or old.get("track") or (s.get("schedule_track") or {}).get("name","")
         url=(lst.get(i) or {}).get("url") or old.get("url") or f"https://websummit.com/sessions/lis26/{i}/{s.get('slug','')}/"
         title=s.get("title") or old.get("titel","")
-        rows[i]=dict(dag=st[:10],start=st[11:16],eind=(s.get("ends_at") or "")[11:16],stage=(s.get("location") or {}).get("name",""),track=track,
+        c=lst.get(i)   # overview card wins for day/time/stage (session pages lag behind)
+        day,stt,ent,stg=(c["day"],card_hm(c["start_card"]),card_hm(c["end_card"]),c["stage_card"].strip()) if c else (st[:10],st[11:16],(s.get("ends_at") or "")[11:16],(s.get("location") or {}).get("name",""))
+        rows[i]=dict(dag=day,start=stt,eind=ent,stage=stg,track=track,
             type=stype(track,title),titel=title,beschrijving=(s.get("description") or "").strip(),sprekers="; ".join(spk),organisaties="; ".join(orgs),
             host_partner=(s.get("appearance_name") or "").strip(),url=url,status="")
     for k in ("new","moved_in"):
