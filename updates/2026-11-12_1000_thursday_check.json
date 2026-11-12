@@ -1,0 +1,3851 @@
+{
+ "summary": {
+  "day": "2026-11-12",
+  "last_page": 72,
+  "unique_in_listing": 488,
+  "total_on_day": 504,
+  "hidden_by_pagination": 16,
+  "prev_day_sessions_elsewhere": {
+   "still 2026-11-11": 201,
+   "404": 46,
+   "still 2026-11-12": 5
+  },
+  "counts": {
+   "moved_in": 160,
+   "changed": 118,
+   "new": 55,
+   "gone": 23
+  }
+ },
+ "picks": [
+  {
+   "title": "The future of enterprise software has no middleman",
+   "was": "2026-11-11 10:00-10:20 Centre Stage",
+   "now": "2026-11-11 10:00-10:20 Centre Stage"
+  },
+  {
+   "title": "Who wins in the age of agentic AI?",
+   "was": "2026-11-11 10:20-10:40 Centre Stage",
+   "now": "2026-11-11 10:20-10:40 Centre Stage"
+  },
+  {
+   "title": "The intelligence paradox: Why greater AI power makes human expertise more valuable",
+   "was": "2026-11-11 10:50-11:00 Stage 9",
+   "now": "2026-11-11 10:50-11:00 Stage 9"
+  },
+  {
+   "title": "Most companies don't need AI engineers, and here's why",
+   "was": "2026-11-11 12:10-12:20 Stage 9",
+   "now": "2026-11-11 12:10-12:20 Stage 9"
+  },
+  {
+   "title": "The new AI skills guide",
+   "was": "2026-11-11 13:25-13:45 Stage 4",
+   "now": "2026-11-11 13:25-13:45 Stage 4"
+  },
+  {
+   "title": "What jobs no longer require humans?",
+   "was": "2026-11-11 13:55-14:06 Stage 9",
+   "now": "2026-11-11 13:55-14:06 Stage 9"
+  },
+  {
+   "title": "Is AI flattening the tech market or concentrating it?",
+   "was": "2026-11-11 14:40-15:05 Stage 5",
+   "now": "2026-11-11 14:40-15:05 Stage 5"
+  },
+  {
+   "title": "The only skills that matter now",
+   "was": "2026-11-11 15:50-16:10 Stage 4",
+   "now": "2026-11-12 14:50-15:10 Stage 4"
+  },
+  {
+   "title": "Customers hold the secret sauce, and AI can't cook without it",
+   "was": "2026-11-12 11:20-11:30 Stage 9",
+   "now": "2026-11-12 11:11-11:21 Stage 9"
+  },
+  {
+   "title": "Beyond the model: Scaling AI agents for professional work",
+   "was": "2026-11-12 11:50-12:10 Stage 13",
+   "now": "2026-11-12 11:30-11:50 Stage 13"
+  },
+  {
+   "title": "Why AI and SaaS need each other",
+   "was": "2026-11-12 13:25-13:45 Stage 7",
+   "now": "2026-11-12 13:20-13:40 Stage 7"
+  },
+  {
+   "title": "The last mile for AI",
+   "was": "2026-11-12 13:45-14:05 Stage 7",
+   "now": "2026-11-12 13:40-14:00 Stage 7"
+  },
+  {
+   "title": "Betting against the moat",
+   "was": "2026-11-12 15:25-15:45 Stage 7",
+   "now": "2026-11-12 15:20-15:40 Stage 7"
+  },
+  {
+   "title": "What happens when AI replaces your CEO?",
+   "was": "2026-11-11 11:50-12:10 Stage 13",
+   "now": "2026-11-12 14:40-15:00 Stage 13"
+  },
+  {
+   "title": "What replaces the click?",
+   "was": "2026-11-11 12:10-12:30 Stage 13",
+   "now": "2026-11-12 09:30-09:50 Stage 13"
+  },
+  {
+   "title": "Introducing: The next billion workers",
+   "was": "2026-11-12 10:00-10:20 Centre Stage",
+   "now": "2026-11-12 10:00-10:20 Centre Stage"
+  },
+  {
+   "title": "Why AI agents stall at the production line",
+   "was": "2026-11-11 11:10-11:30 Stage 13",
+   "now": "2026-11-12 09:10-09:30 Stage 13"
+  },
+  {
+   "title": "The next billion players will not download a game",
+   "was": "2026-11-11 11:15-11:35 Stage 3",
+   "now": "2026-11-12 14:35-14:55 Stage 5"
+  },
+  {
+   "title": "AI Build Sprint: Ship a Business App for Your Ops",
+   "was": "2026-11-11 19:00-22:00 Spaces Oriente",
+   "now": "2026-11-12 17:30-20:30 Spaces Oriente"
+  },
+  {
+   "title": "The biological bottleneck",
+   "was": "2026-11-12 10:45-11:10 Stage 8",
+   "now": "2026-11-12 10:45-11:10 Stage 8"
+  }
+ ],
+ "moved_in": [
+  {
+   "id": "c739a1a1-3d8e-4a81-8648-53a0f5ea9013",
+   "from_day": "2026-11-11",
+   "from_start": "17:00",
+   "day": "2026-11-12",
+   "start": "09:00",
+   "end": "10:00",
+   "stage": "Centre Stage",
+   "title": "PITCH semi-final"
+  },
+  {
+   "id": "a764c096-5f04-43ca-b8a8-bd5ff45846c7",
+   "from_day": "2026-11-11",
+   "from_start": "14:40",
+   "day": "2026-11-12",
+   "start": "09:05",
+   "end": "09:25",
+   "stage": "Stage 11",
+   "title": "What Europe can learn from China: From industrial strategy to tech"
+  },
+  {
+   "id": "3f4deaed-2b93-483a-a9b3-01119450d43b",
+   "from_day": "2026-11-11",
+   "from_start": "10:15",
+   "day": "2026-11-12",
+   "start": "09:05",
+   "end": "09:25",
+   "stage": "Stage 4",
+   "title": "Beyond the autonomous legal department"
+  },
+  {
+   "id": "52d3afb3-f921-4a73-9284-4ee6593e11d9",
+   "from_day": "2026-11-11",
+   "from_start": "10:30",
+   "day": "2026-11-12",
+   "start": "09:10",
+   "end": "09:30",
+   "stage": "Stage 10",
+   "title": "Why your AI agents don’t understand your business – and how to fix it"
+  },
+  {
+   "id": "1520fda2-92bb-4e9c-8843-1582aa04c031",
+   "from_day": "2026-11-11",
+   "from_start": "11:10",
+   "day": "2026-11-12",
+   "start": "09:10",
+   "end": "09:30",
+   "stage": "Stage 13",
+   "title": "Why AI agents stall at the production line"
+  },
+  {
+   "id": "f2ca1d20-7d03-4d91-80d7-adb7716e76af",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "09:25",
+   "end": "09:50",
+   "stage": "Stage 11",
+   "title": "Trust me bro: Western media and the decline of public trust"
+  },
+  {
+   "id": "a1206452-3464-4c16-a488-2eca20332813",
+   "from_day": "2026-11-11",
+   "from_start": "10:30",
+   "day": "2026-11-12",
+   "start": "09:25",
+   "end": "09:45",
+   "stage": "Stage 7",
+   "title": "Moving from hype to hard ROI"
+  },
+  {
+   "id": "1d507eb8-1f84-4310-b346-01c8ab6d0770",
+   "from_day": "2026-11-11",
+   "from_start": "12:05",
+   "day": "2026-11-12",
+   "start": "09:25",
+   "end": "09:35",
+   "stage": "Stage 4",
+   "title": "The robotic front desk"
+  },
+  {
+   "id": "e0582d53-e1fd-4ebc-88f3-ba57aa7320d4",
+   "from_day": "2026-11-11",
+   "from_start": "12:10",
+   "day": "2026-11-12",
+   "start": "09:30",
+   "end": "09:50",
+   "stage": "Stage 13",
+   "title": "What replaces the click?"
+  },
+  {
+   "id": "890ae481-3f1c-44a3-be70-b23b56891192",
+   "from_day": "2026-11-11",
+   "from_start": "12:40",
+   "day": "2026-11-12",
+   "start": "09:30",
+   "end": "09:40",
+   "stage": "Stage 9",
+   "title": "Here comes the sun: Why we need an energy system in space"
+  },
+  {
+   "id": "69ce37f9-aed7-4d47-9bc0-eb01d91bfdf2",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "09:30",
+   "end": "10:30",
+   "stage": "E170",
+   "title": "How to Scale Your Business Beyond Your Current Market"
+  },
+  {
+   "id": "159fe8f9-7900-4f36-93e1-8b794cd11949",
+   "from_day": "2026-11-11",
+   "from_start": "11:50",
+   "day": "2026-11-12",
+   "start": "09:30",
+   "end": "09:50",
+   "stage": "Stage 10",
+   "title": "When AI verifies AI"
+  },
+  {
+   "id": "ff2d986e-8a75-45a8-a62d-c551dfdfdf45",
+   "from_day": "2026-11-11",
+   "from_start": "12:15",
+   "day": "2026-11-12",
+   "start": "09:35",
+   "end": "09:55",
+   "stage": "Stage 4",
+   "title": "You did everything right. Now what?"
+  },
+  {
+   "id": "d5ae4a47-cdbc-48bc-be4a-1cb9ec9e9c25",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "09:40",
+   "end": "09:55",
+   "stage": "E401",
+   "title": "HighLevel Giveaway (DJI & Airpods)"
+  },
+  {
+   "id": "30844611-123c-4eb2-a4af-aeafc1881996",
+   "from_day": "2026-11-11",
+   "from_start": "11:40",
+   "day": "2026-11-12",
+   "start": "09:40",
+   "end": "09:50",
+   "stage": "Stage 9",
+   "title": "From copilot to colleague: How AI agents join your team"
+  },
+  {
+   "id": "0447321c-3e82-4103-bfaf-0f6bee44c59d",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "09:45",
+   "end": "10:05",
+   "stage": "Stage 7",
+   "title": "Silicon Valley vs. Europe and the race for global dominance"
+  },
+  {
+   "id": "858c105c-7c26-4196-bbc1-5a6ef6a35f55",
+   "from_day": "2026-11-11",
+   "from_start": "11:10",
+   "day": "2026-11-12",
+   "start": "09:50",
+   "end": "10:10",
+   "stage": "Stage 10",
+   "title": "Don’t feed shit to agents"
+  },
+  {
+   "id": "85141544-14a1-48ea-995a-e9a1bf68b6f2",
+   "from_day": "2026-11-11",
+   "from_start": "12:20",
+   "day": "2026-11-12",
+   "start": "09:50",
+   "end": "10:00",
+   "stage": "Stage 9",
+   "title": "The perks of loyalty: How embedded rewards turn everyday spending into revenue"
+  },
+  {
+   "id": "3c85c4b4-cc50-4573-a1d5-8da2148b189f",
+   "from_day": "2026-11-11",
+   "from_start": "15:35",
+   "day": "2026-11-12",
+   "start": "09:50",
+   "end": "10:10",
+   "stage": "Stage 11",
+   "title": "Who shapes US foreign policy?"
+  },
+  {
+   "id": "3c0aac7b-0866-4a15-bd6b-cd6237314903",
+   "from_day": "2026-11-11",
+   "from_start": "14:40",
+   "day": "2026-11-12",
+   "start": "09:50",
+   "end": "10:10",
+   "stage": "Stage 13",
+   "title": "A new era of human-computer interaction"
+  },
+  {
+   "id": "220dafdb-13cd-4fdc-b724-16c22cebdade",
+   "from_day": "2026-11-11",
+   "from_start": "14:05",
+   "day": "2026-11-12",
+   "start": "09:55",
+   "end": "10:15",
+   "stage": "Stage 4",
+   "title": "Bridging the AI confidence gap"
+  },
+  {
+   "id": "f52414d4-7761-45ac-800c-b63f03e7f2fb",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 6",
+   "title": "📸 Content creators meetup"
+  },
+  {
+   "id": "f0961164-5591-4993-aec3-9ca13cf80bc0",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:55",
+   "stage": "Mingle Area 1",
+   "title": "📰 Media journalists meetup"
+  },
+  {
+   "id": "95583770-20b4-4d84-9907-05f2850134b2",
+   "from_day": "2026-11-10",
+   "from_start": "13:30",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 3",
+   "title": "🛰️ Space tech meetup"
+  },
+  {
+   "id": "88cffcda-4561-4c3d-9cd6-7fa8a692ffec",
+   "from_day": "2026-11-11",
+   "from_start": "13:30",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:55",
+   "stage": "Mingle Area 5",
+   "title": "🤝 Hiring your first team meetup"
+  },
+  {
+   "id": "8555aa31-6acb-472c-a274-c8a49093faf7",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 1",
+   "title": "🔮 Rethinking work meetup with Native Teams"
+  },
+  {
+   "id": "5f8fbb33-b908-4dbf-8749-be99391b32f4",
+   "from_day": "2026-11-11",
+   "from_start": "12:15",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:20",
+   "stage": "Stage 3",
+   "title": "How do you build creative ambition?"
+  },
+  {
+   "id": "4e8af913-13ee-48a3-a523-cd59c9e7215b",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 5",
+   "title": "🐣 Pre-seed stage Founders & CEOs meetup"
+  },
+  {
+   "id": "48d8e61f-f056-4895-bdc2-ab2c09d4c249",
+   "from_day": "2026-11-11",
+   "from_start": "14:30",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:55",
+   "stage": "Mingle Area 2",
+   "title": "🛍️ E-commerce & retail innovators meetup"
+  },
+  {
+   "id": "3f8ef822-72bd-4d4a-bd5f-533430c218ec",
+   "from_day": "2026-11-11",
+   "from_start": "11:20",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:10",
+   "stage": "Stage 9",
+   "title": "Taming token economics: A new framework for sustainable enterprise AI"
+  },
+  {
+   "id": "26c77d19-1364-4eeb-ab02-ebce178ba115",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:55",
+   "stage": "Mingle Area 4",
+   "title": "🇬🇷 Greece meetup"
+  },
+  {
+   "id": "2465ed74-ae9c-4705-93dc-54bb7f8ae26d",
+   "from_day": "2026-11-11",
+   "from_start": "12:30",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:20",
+   "stage": "Stage 2",
+   "title": "Open or Closed AI models: which types of future do they represent? (Press conference)"
+  },
+  {
+   "id": "11166922-da1d-44bc-bd2a-63f139687b20",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 2",
+   "title": "🪜 Founders scaling businesses meetup"
+  },
+  {
+   "id": "0c0a4841-edb2-4e16-9704-3bf03f15677b",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:25",
+   "stage": "Meetup 4",
+   "title": "🛠️ CTOs & engineering leaders meetup"
+  },
+  {
+   "id": "0bb19a8b-02f8-49ad-bb9f-68eea6ea12f8",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:30",
+   "stage": "Developer Lounge",
+   "title": "AI as an employee in your organization"
+  },
+  {
+   "id": "00fd5630-70f4-4468-8721-22d6a1031875",
+   "from_day": "2026-11-11",
+   "from_start": "10:00",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:50",
+   "stage": "Community Space",
+   "title": "Why AI skills must translate into leadership access for Women 👩‍💼"
+  },
+  {
+   "id": "bb8b0cc9-c49e-4317-8a49-13a413fdedb5",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "10:05",
+   "end": "10:20",
+   "stage": "Stage 7",
+   "title": "Unhold your customers. Hold onto loyalty."
+  },
+  {
+   "id": "c8a90bb6-7061-4a8c-b5ac-c42aa2f6288c",
+   "from_day": "2026-11-10",
+   "from_start": "11:35",
+   "day": "2026-11-12",
+   "start": "10:15",
+   "end": "10:35",
+   "stage": "Stage 14",
+   "title": "How the best brands hijack culture"
+  },
+  {
+   "id": "b1161aa6-c9eb-4f71-8075-db19af7c7ef1",
+   "from_day": "2026-11-11",
+   "from_start": "10:15",
+   "day": "2026-11-12",
+   "start": "10:15",
+   "end": "11:00",
+   "stage": "E489",
+   "title": "The 10-Person Unicorn: Who Builds It First?"
+  },
+  {
+   "id": "58229f70-d4a9-4241-b7c9-5e6525c2bec3",
+   "from_day": "2026-11-11",
+   "from_start": "11:35",
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:40",
+   "stage": "Stage 3",
+   "title": "Who gets to design the future?"
+  },
+  {
+   "id": "f47f7095-9aa8-42f3-98e4-dcb7fd167637",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 6",
+   "title": "🇵🇱 Poland meetup"
+  },
+  {
+   "id": "e89ed8f4-4141-465e-b3eb-43a4f06d6ccf",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 1",
+   "title": "🦄 Seed & Series A founders meetup"
+  },
+  {
+   "id": "ce8eaf0c-725d-4e39-9ec7-ded30c36884c",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 5",
+   "title": "🦜 Latin America founders meetup"
+  },
+  {
+   "id": "a87fc9a0-e74a-4445-8671-b13d70e32073",
+   "from_day": "2026-11-11",
+   "from_start": "11:10",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:40",
+   "stage": "Stage 9",
+   "title": "Building the product isn’t the hard part. Building the company is."
+  },
+  {
+   "id": "80d9998e-9744-41c9-8acf-6966f7997afa",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "11:30",
+   "stage": "E401",
+   "title": "Wind Down with Varun Vairavan"
+  },
+  {
+   "id": "745ec2a5-e7e1-4ced-be2f-ca9591ecd4cf",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 3",
+   "title": "☁️🏦 SaaS enterprises & fintech founders meetup"
+  },
+  {
+   "id": "3b33fa3a-c219-4ceb-9ade-b428277a165e",
+   "from_day": "2026-11-11",
+   "from_start": "16:15",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "11:30",
+   "stage": "The Whistleblower Bookshop",
+   "title": "Book signing: Israel's Lobby: America in the Grip of a Foreign Power by Eli Clifton and Ian Lustick"
+  },
+  {
+   "id": "014c8e4c-e45d-4368-ae3d-7808b8aa008c",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 4",
+   "title": "☝️🚀 First time startup founders meetup"
+  },
+  {
+   "id": "91f36a60-b436-4c49-98e4-488c4d51a8d8",
+   "from_day": "2026-11-11",
+   "from_start": "13:45",
+   "day": "2026-11-12",
+   "start": "10:35",
+   "end": "10:55",
+   "stage": "Stage 14",
+   "title": "Designing for connection, online and off"
+  },
+  {
+   "id": "bb3ca4f5-0a7a-4a93-af92-abc20423f6eb",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "10:40",
+   "end": "11:00",
+   "stage": "Stage 3",
+   "title": "Normal is not safe"
+  },
+  {
+   "id": "b811d47d-87c8-4bdb-8c36-9671909ba1e2",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "10:40",
+   "end": "11:05",
+   "stage": "Stage 7",
+   "title": "How international cooperation can drive economic growth"
+  },
+  {
+   "id": "8ade87a4-9980-4ba1-9b02-7a5476895b2f",
+   "from_day": "2026-11-11",
+   "from_start": "13:45",
+   "day": "2026-11-12",
+   "start": "10:40",
+   "end": "11:00",
+   "stage": "Stage 5",
+   "title": "Where capital is flowing in 2026, and why"
+  },
+  {
+   "id": "ea690d30-0acb-4b0a-8608-4224777d2b46",
+   "from_day": "2026-11-11",
+   "from_start": "14:30",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:25",
+   "stage": "Meetup 3",
+   "title": "🏗️ Venture studio meetup"
+  },
+  {
+   "id": "e5e87aed-7c92-4200-931e-6062c8890104",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:30",
+   "stage": "E245",
+   "title": "Women Shaping Europe’s Future "
+  },
+  {
+   "id": "e2d5f570-ce31-4a26-8ef1-695b6ac53b8e",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:55",
+   "stage": "Mingle Area 3",
+   "title": "💡 Student-founded startups meetup"
+  },
+  {
+   "id": "dd5600f2-2e3a-4023-a127-d2e8f8521ca0",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:20",
+   "stage": "Stage 2",
+   "title": "Press conference with Web Summit CEO and Founder Paddy Cosgrave"
+  },
+  {
+   "id": "a823d2a6-eb9c-402c-90b0-ee8db8408213",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "12:00",
+   "stage": "E107",
+   "title": "norriv: Meet the Holograms. They Talk Back"
+  },
+  {
+   "id": "52a581a5-0dc5-429a-a4b5-790d96901f03",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:55",
+   "stage": "Mingle Area 1",
+   "title": "✈️ Traveltech meetup"
+  },
+  {
+   "id": "3c710bd7-d94f-4e20-9033-210a045b15dc",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:55",
+   "stage": "Mingle Area 4",
+   "title": "🏥 AI in Healthcare meetup"
+  },
+  {
+   "id": "260a7965-987d-4fb1-868b-5d2d026e06d7",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:55",
+   "stage": "Mingle Area 2",
+   "title": "✍️ Writers & publishers meetup"
+  },
+  {
+   "id": "116839c4-6e17-4a73-8786-c65ae5052d2e",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "11:15",
+   "end": "11:35",
+   "stage": "Stage 4",
+   "title": "Nomads with roots: The ecosystem of the future"
+  },
+  {
+   "id": "e363fe42-6dc4-488f-b72e-6119006534fb",
+   "from_day": "2026-11-11",
+   "from_start": "15:20",
+   "day": "2026-11-12",
+   "start": "11:20",
+   "end": "11:40",
+   "stage": "Stage 3",
+   "title": "The mask in the mirror"
+  },
+  {
+   "id": "96ac7f9f-4190-4483-b972-49a17f11b73f",
+   "from_day": "2026-11-11",
+   "from_start": "13:25",
+   "day": "2026-11-12",
+   "start": "11:20",
+   "end": "11:40",
+   "stage": "Stage 14",
+   "title": "A new framework for brand trust in the AI era"
+  },
+  {
+   "id": "cddc00ac-3307-416f-b01e-de66c5c9fac9",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "12:00",
+   "stage": "E403",
+   "title": "The key behavioural data that AI can finally reveal"
+  },
+  {
+   "id": "be4d851f-23ce-4c24-b94c-6e777ef89b5f",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "12:30",
+   "stage": "E422",
+   "title": "Greek Meet Up"
+  },
+  {
+   "id": "63a4bb43-b930-4b63-9e32-737569890739",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "12:00",
+   "stage": "E245",
+   "title": "Why Valencia?"
+  },
+  {
+   "id": "2a66ade8-237e-4ba0-ae83-a88e22538a19",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "12:30",
+   "stage": "E321",
+   "title": "Speed Dating - Bring Us Your AI & Tech Challenge"
+  },
+  {
+   "id": "c2a62d61-eccd-4116-af18-976b7361071e",
+   "from_day": "2026-11-11",
+   "from_start": "11:50",
+   "day": "2026-11-12",
+   "start": "11:31",
+   "end": "11:41",
+   "stage": "Stage 9",
+   "title": "The 10-person company with a 1, 000-person attack surface"
+  },
+  {
+   "id": "0a834d30-6d0c-49ed-986c-6e2eed88f8ab",
+   "from_day": "2026-11-11",
+   "from_start": "11:55",
+   "day": "2026-11-12",
+   "start": "11:35",
+   "end": "11:55",
+   "stage": "Stage 11",
+   "title": "Open vs closed: The debate defining the AI era"
+  },
+  {
+   "id": "e7156720-a640-47fc-9c38-18fc95f7e005",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "13:00",
+   "stage": "E153",
+   "title": "The Growth Quiz by Headway Inc"
+  },
+  {
+   "id": "dac87e4d-ac7d-4cbc-abb4-d9a3ee966d26",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "13:30",
+   "stage": "E201",
+   "title": "Vancouver Canada Reception"
+  },
+  {
+   "id": "c9c4f4a2-ce05-4816-b5d7-4b219f4b94dd",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 3",
+   "title": "🦿 Physical AI meetup"
+  },
+  {
+   "id": "ae2c6e99-2908-44f4-8c12-93f831cd139e",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 1",
+   "title": "🎨 Artists in tech meetup"
+  },
+  {
+   "id": "ae223f4c-febb-4cae-8915-cf803a1ac26c",
+   "from_day": "2026-11-11",
+   "from_start": "16:30",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 5",
+   "title": "🇷🇸 Serbia meetup"
+  },
+  {
+   "id": "92572447-f2eb-46d8-b2ae-e3c40302fa8a",
+   "from_day": "2026-11-11",
+   "from_start": "16:30",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "13:00",
+   "stage": "E467",
+   "title": "Drinks & Demos 🍻 by Akamai"
+  },
+  {
+   "id": "4644da70-ed56-40c1-9a94-f3a9acbc2fe7",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 4",
+   "title": "🇦🇱 Albania meetup"
+  },
+  {
+   "id": "1e2c549b-b0b3-46e6-9bb0-a9ea1668fce2",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 2",
+   "title": "🎮 Gamers, AR & VR meetup"
+  },
+  {
+   "id": "a990a30d-a378-4a25-864e-b391dacb5a9d",
+   "from_day": "2026-11-11",
+   "from_start": "12:30",
+   "day": "2026-11-12",
+   "start": "12:01",
+   "end": "12:11",
+   "stage": "Stage 9",
+   "title": "What happens when machines start asking questions at scale?"
+  },
+  {
+   "id": "ef19bb1f-af22-46c1-81ad-c6f1a8232e67",
+   "from_day": "2026-11-11",
+   "from_start": "15:43",
+   "day": "2026-11-12",
+   "start": "12:11",
+   "end": "12:36",
+   "stage": "Stage 9",
+   "title": "Powering the backbone"
+  },
+  {
+   "id": "d135a390-9d48-4b6f-92c0-6992993cdd6f",
+   "from_day": "2026-11-11",
+   "from_start": "11:05",
+   "day": "2026-11-12",
+   "start": "12:15",
+   "end": "12:40",
+   "stage": "Stage 7",
+   "title": "Building AI on your own terms: From technology discovery to real-world scale"
+  },
+  {
+   "id": "9d24da75-aa41-4238-a0ac-cd9681c896b7",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "12:30",
+   "end": "13:25",
+   "stage": "Meetup 6",
+   "title": "♟️Beyond the stage meetup with Danny Rensch"
+  },
+  {
+   "id": "2230e1d4-188d-4ab0-9f3d-a418dff6c20b",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "12:30",
+   "end": "13:15",
+   "stage": "Masterclass 4",
+   "title": "AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]"
+  },
+  {
+   "id": "db0402be-cae2-48a2-8804-e6526cd0edb2",
+   "from_day": "2026-11-11",
+   "from_start": "16:05",
+   "day": "2026-11-12",
+   "start": "12:40",
+   "end": "13:00",
+   "stage": "Stage 3",
+   "title": "The next chapter of storytelling"
+  },
+  {
+   "id": "afa3edcc-dded-4271-baee-2e644393e590",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:30",
+   "stage": "E374",
+   "title": "Sweden Connects: Tech, Innovation & Fika"
+  },
+  {
+   "id": "823823d7-749f-43a0-91f3-642d373da90b",
+   "from_day": "2026-11-11",
+   "from_start": "12:30",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 3",
+   "title": "🧬 Biotech meetup"
+  },
+  {
+   "id": "6f1cac4f-1d44-4233-9468-f6ccc3b43062",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 4",
+   "title": "🇨🇿 Czechia meetup"
+  },
+  {
+   "id": "48e29669-fbce-4797-9c53-011b17f587d3",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:20",
+   "stage": "Stage 14",
+   "title": "Beyond better: how brands reshape and make categories"
+  },
+  {
+   "id": "111cbb2b-27f5-482d-bbb2-be39863a981e",
+   "from_day": "2026-11-11",
+   "from_start": "12:30",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 1",
+   "title": "🍽️ Foodtech innovators meetup"
+  },
+  {
+   "id": "06fbbe60-3b63-4db1-8347-0643715cee5a",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 2",
+   "title": "⛓️‍💥 Web3, crypto and blockchain meetup"
+  },
+  {
+   "id": "32b280bb-566d-490f-aa6e-7dbcbcb3c150",
+   "from_day": "2026-11-11",
+   "from_start": "11:35",
+   "day": "2026-11-12",
+   "start": "13:25",
+   "end": "13:50",
+   "stage": "Stage 14",
+   "title": "China’s global brand revolution"
+  },
+  {
+   "id": "143bb057-1f2c-4f69-a052-56ce3f2727cd",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "13:25",
+   "end": "13:50",
+   "stage": "Stage 11",
+   "title": "Who wants to go public? Inside the new IPO tech boom"
+  },
+  {
+   "id": "bc9ae0ed-69da-4aa4-b0fe-d774ec1d5357",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "13:30",
+   "end": "14:15",
+   "stage": "Masterclass 4",
+   "title": "Beyond the demo: What it really takes to put AI robots to work [Hosted by Intel]"
+  },
+  {
+   "id": "7855bf81-f94c-49a6-96f4-bfc177b186c9",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "13:30",
+   "end": "13:55",
+   "stage": "Women in tech Lounge",
+   "title": "Leading the AI shift meetup 🤖"
+  },
+  {
+   "id": "9351ba39-a48a-45c4-b147-8688ea48ba4a",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "13:40",
+   "end": "14:00",
+   "stage": "Stage 13",
+   "title": "Beyond the AI agent hype"
+  },
+  {
+   "id": "55a00f1f-c741-436e-bb21-afc5ab70e3d5",
+   "from_day": "2026-11-11",
+   "from_start": "14:28",
+   "day": "2026-11-12",
+   "start": "13:47",
+   "end": "13:58",
+   "stage": "Stage 9",
+   "title": "My Holographic Speaker just stole my keynote!"
+  },
+  {
+   "id": "cb9631a6-cd51-4987-8a90-25143fcaa35c",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 2",
+   "title": "🇯🇵 Japan meetup"
+  },
+  {
+   "id": "bc6a2d42-2f8c-4fcb-a801-e40b1238a10c",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "15:00",
+   "stage": "E215",
+   "title": "Startup Germany BeerTogether"
+  },
+  {
+   "id": "b3b27f3c-5179-4eb0-b8aa-9d97a2e19833",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 1",
+   "title": "✨Creatives in AI meetup"
+  },
+  {
+   "id": "9d90f086-7b10-4072-a9c1-f8390f0a6b54",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 3",
+   "title": "🇸🇪 Sweden meetup"
+  },
+  {
+   "id": "5726706d-5397-4812-9fef-9f08114cba7e",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "15:00",
+   "stage": "E469",
+   "title": "Happy Hour for International Founders"
+  },
+  {
+   "id": "3c500aa0-b70c-4cdf-8893-4b0fa66039db",
+   "from_day": "2026-11-11",
+   "from_start": "12:00",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 4",
+   "title": "🗼🇫🇷 Paris startup builders meetup"
+  },
+  {
+   "id": "27fc6ec9-be95-4ce7-afa0-89463cd21a0f",
+   "from_day": "2026-11-11",
+   "from_start": "13:30",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:25",
+   "stage": "Meetup 2",
+   "title": "Community-driven investments meetup | Hosted by AngelsWay"
+  },
+  {
+   "id": "3a0acb6d-9fd0-4431-ab32-5526addbdcc8",
+   "from_day": "2026-11-11",
+   "from_start": "10:50",
+   "day": "2026-11-12",
+   "start": "14:25",
+   "end": "14:45",
+   "stage": "Stage 11",
+   "title": "Putting human rights into artificial intelligence"
+  },
+  {
+   "id": "6c95361b-0ea2-4678-a113-743f1531f857",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "14:45",
+   "stage": "E401",
+   "title": "HighLevel Giveaway (iPad + mini)"
+  },
+  {
+   "id": "61ac2533-d733-4d0b-bbf1-f7fdd1ce47f3",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "15:30",
+   "stage": "E423",
+   "title": "The Next Frontier of AI in Healthcare - Happy hour"
+  },
+  {
+   "id": "c1df49a5-8060-4d55-b93d-694ff973bcd9",
+   "from_day": "2026-11-11",
+   "from_start": "11:15",
+   "day": "2026-11-12",
+   "start": "14:35",
+   "end": "14:55",
+   "stage": "Stage 5",
+   "title": "The next billion players will not download a game"
+  },
+  {
+   "id": "f329920f-c8e2-418b-8ee8-d2c6ec3259ca",
+   "from_day": "2026-11-11",
+   "from_start": "11:50",
+   "day": "2026-11-12",
+   "start": "14:40",
+   "end": "15:00",
+   "stage": "Stage 13",
+   "title": "What happens when AI replaces your CEO?"
+  },
+  {
+   "id": "4ffa535e-b28f-4527-afd7-b5a7b85ea923",
+   "from_day": "2026-11-11",
+   "from_start": "15:50",
+   "day": "2026-11-12",
+   "start": "14:50",
+   "end": "15:10",
+   "stage": "Stage 4",
+   "title": "The only skills that matter now"
+  },
+  {
+   "id": "f3712e6e-481b-47b6-b43e-69a312c07ef2",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:20",
+   "stage": "Stage 2",
+   "title": "Press conference with NordVPN CPSO Domininkas Virbickas"
+  },
+  {
+   "id": "bdb3f326-b2b9-46e4-8745-957589ab4949",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "16:00",
+   "stage": "E174",
+   "title": "Introducing Campus Tejo — Science and Technology in Santarém, Portugal"
+  },
+  {
+   "id": "9a10451c-f1cd-47d6-a5ce-802bb13f876e",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "16:00",
+   "stage": "E465",
+   "title": "Web3 AI Meetup"
+  },
+  {
+   "id": "84de6ecc-89c9-4f2e-a838-e1e6e97cca96",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 4",
+   "title": "💂🇬🇧 London startup builders meetup"
+  },
+  {
+   "id": "65eb8e8f-60b8-4772-ab2a-d1a11807aa33",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:45",
+   "stage": "Masterclass 1",
+   "title": "Make AI agents work beyond the demo [Hosted by Make]"
+  },
+  {
+   "id": "5593c05b-6849-4083-99fa-a90571a9ad2a",
+   "from_day": "2026-11-11",
+   "from_start": "16:30",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 1",
+   "title": "📊 Data analysts meetup"
+  },
+  {
+   "id": "18537489-9540-47b1-964e-135fa5214b1f",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 3",
+   "title": "🇱🇺 Luxembourg meetup"
+  },
+  {
+   "id": "0af7710b-1492-4281-afa6-97e4a72c0494",
+   "from_day": "2026-11-10",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Meetup 1",
+   "title": "🇮🇳 India meetup"
+  },
+  {
+   "id": "a95f9a6f-8226-4111-894c-b4a25b4df959",
+   "from_day": "2026-11-11",
+   "from_start": "14:25",
+   "day": "2026-11-12",
+   "start": "15:10",
+   "end": "15:30",
+   "stage": "Stage 4",
+   "title": "The fast and the curious"
+  },
+  {
+   "id": "e2e060cc-6dc5-4f3a-8db8-cd77f82394af",
+   "from_day": "2026-11-11",
+   "from_start": "14:30",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "16:15",
+   "stage": "Masterclass 4",
+   "title": "Turning the tide: Where insurance action meets climate resilience [Hosted by Fidelidade]"
+  },
+  {
+   "id": "3fec214a-c6f3-41bb-ace2-b45b50f6d964",
+   "from_day": "2026-11-11",
+   "from_start": "10:00",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "16:15",
+   "stage": "Masterclass 3",
+   "title": "Monitoring in the age of GenAI: Beyond golden signals [Hosted by Datadog]"
+  },
+  {
+   "id": "200373ff-fe21-4258-84d4-2d8767174f93",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "15:50",
+   "stage": "Stage 2",
+   "title": "Press conference with the world's first AI CEO co-founder Sam Pasupalak"
+  },
+  {
+   "id": "105e66e0-598d-4d29-8c1c-6ffc2860d0f2",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "16:30",
+   "stage": "E175",
+   "title": "Beer & a Park Without Borders: Meet Durana Tech Park, Albania"
+  },
+  {
+   "id": "0d1ed6e1-607d-4728-99f7-b2a1376a63ab",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "16:25",
+   "stage": "Developer Lounge",
+   "title": "Code, review and ship with Replit"
+  },
+  {
+   "id": "0a293984-9fa5-4a10-b32a-e5604b67ef35",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "16:15",
+   "stage": "Masterclass 5",
+   "title": "Plug into Lisboa: The fast track to global markets [Hosted by Lisboa]"
+  },
+  {
+   "id": "0116c7d7-8cb7-430e-b3f2-5fbf0409dbd8",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "17:00",
+   "stage": "E176",
+   "title": "SÃO PAULO meets the World"
+  },
+  {
+   "id": "f77544ea-a293-4da9-b3fd-14603fd7799b",
+   "from_day": "2026-11-11",
+   "from_start": "13:40",
+   "day": "2026-11-12",
+   "start": "15:40",
+   "end": "16:00",
+   "stage": "Stage 13",
+   "title": "Exploits don't wait for Jira tickets"
+  },
+  {
+   "id": "ab1e951e-9e90-437f-a7e7-2d9435d9889e",
+   "from_day": "2026-11-11",
+   "from_start": "15:21",
+   "day": "2026-11-12",
+   "start": "15:40",
+   "end": "15:51",
+   "stage": "Stage 9",
+   "title": "Why smart enterprises keep buying broken AI promises"
+  },
+  {
+   "id": "d7461ee3-55d4-4bf4-8bb1-29143d2cb987",
+   "from_day": "2026-11-11",
+   "from_start": "10:55",
+   "day": "2026-11-12",
+   "start": "15:50",
+   "end": "16:10",
+   "stage": "Stage 4",
+   "title": "Get on bored: Reclaiming our attention span in the workplace"
+  },
+  {
+   "id": "6480589f-e250-4156-836b-6b602bfd0383",
+   "from_day": "2026-11-11",
+   "from_start": "15:10",
+   "day": "2026-11-12",
+   "start": "15:51",
+   "end": "16:02",
+   "stage": "Stage 9",
+   "title": "The path to processing US$10bn in payments"
+  },
+  {
+   "id": "ae54a57d-e1a6-4a3a-85f6-41b0d98b3622",
+   "from_day": "2026-11-11",
+   "from_start": "12:30",
+   "day": "2026-11-12",
+   "start": "15:55",
+   "end": "16:20",
+   "stage": "Women in tech Lounge",
+   "title": "Women in marketing meetup 📢"
+  },
+  {
+   "id": "ea762297-c887-4978-9daa-d4fd50acc6c6",
+   "from_day": "2026-11-11",
+   "from_start": "13:30",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:45",
+   "stage": "Masterclass 2",
+   "title": "Scaling a Local Product to Global Markets [Hosted by Snoonu]"
+  },
+  {
+   "id": "d24b4a2d-1afd-4fa3-bec0-76b88345f553",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Meetup 2",
+   "title": "China founders × global investors & tech industry meetup"
+  },
+  {
+   "id": "bd3b6f30-eefc-44ee-a421-50aaa3db3347",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 2",
+   "title": "📐 UX/UI designers meetup"
+  },
+  {
+   "id": "ab805075-200e-40ca-a87a-c78adce86a9c",
+   "from_day": "2026-11-11",
+   "from_start": "10:25",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:20",
+   "stage": "Stage 7",
+   "title": "The cognitive city: Where AI acts, not just sees"
+  },
+  {
+   "id": "a8ff74dc-fe6d-499e-bbd1-dc8cd800ad41",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 3",
+   "title": "🇧🇪 Belgium meetup"
+  },
+  {
+   "id": "781b8b54-dbb2-4f75-bc55-77c0a1b71bfb",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:45",
+   "stage": "Masterclass 1",
+   "title": "Investing in technological sovereignty: EU funding for your project [Hosted by European Health and Digital Executive Agency (HaDEA)]"
+  },
+  {
+   "id": "3c8ad516-ecdd-4e80-b6db-771c4ed7fd27",
+   "from_day": "2026-11-11",
+   "from_start": "14:00",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 1",
+   "title": "🎥 YouTubers meetup"
+  },
+  {
+   "id": "2a8245e5-a53d-4bfe-ada8-6b4651e2803c",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 4",
+   "title": "🌎 Startups entering North America meetup"
+  },
+  {
+   "id": "307bc466-4d98-451c-a150-0dcfbcf11641",
+   "from_day": "2026-11-11",
+   "from_start": "14:15",
+   "day": "2026-11-12",
+   "start": "16:02",
+   "end": "16:13",
+   "stage": "Stage 9",
+   "title": "Scaling what cannot be standardized"
+  },
+  {
+   "id": "3ce3ae5a-71b6-401e-83cb-83e294b2ec24",
+   "from_day": "2026-11-11",
+   "from_start": "15:30",
+   "day": "2026-11-12",
+   "start": "16:05",
+   "end": "16:30",
+   "stage": "Stage 10",
+   "title": "Is VC playing it too safe?"
+  },
+  {
+   "id": "df39f8fe-08ea-4132-90cb-1549c62f4129",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "16:10",
+   "end": "17:00",
+   "stage": "E369",
+   "title": "Brazil Tourism Happy Hour"
+  },
+  {
+   "id": "bfc18732-3aa6-478f-a074-fd0887d4c14e",
+   "from_day": "2026-11-11",
+   "from_start": "10:40",
+   "day": "2026-11-12",
+   "start": "16:10",
+   "end": "16:30",
+   "stage": "Stage 8",
+   "title": "How the world’s biggest companies move money"
+  },
+  {
+   "id": "5e9d07fd-8d85-4573-af07-abc319331be6",
+   "from_day": "2026-11-11",
+   "from_start": "11:15",
+   "day": "2026-11-12",
+   "start": "16:10",
+   "end": "16:30",
+   "stage": "Stage 4",
+   "title": "Game developers: Your next key hire"
+  },
+  {
+   "id": "9f450663-bbab-4845-85a6-b96fc44e2129",
+   "from_day": "2026-11-11",
+   "from_start": "14:39",
+   "day": "2026-11-12",
+   "start": "16:13",
+   "end": "16:24",
+   "stage": "Stage 9",
+   "title": "Hormones as the next frontier of women’s longevity and healthspan"
+  },
+  {
+   "id": "f554c1ec-620d-43be-8be3-e24507ffa351",
+   "from_day": "2026-11-11",
+   "from_start": "11:55",
+   "day": "2026-11-12",
+   "start": "16:20",
+   "end": "16:40",
+   "stage": "Stage 13",
+   "title": "Less is more: AI's next race is efficiency"
+  },
+  {
+   "id": "26fd98c8-0ed0-4e51-a456-dc73828161bb",
+   "from_day": "2026-11-11",
+   "from_start": "11:30",
+   "day": "2026-11-12",
+   "start": "16:20",
+   "end": "16:45",
+   "stage": "Women in tech Lounge",
+   "title": "Women co-founders 🌱"
+  },
+  {
+   "id": "d84673ad-b5d2-4c03-8d2f-d24f95254a39",
+   "from_day": "2026-11-11",
+   "from_start": "11:00",
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "17:15",
+   "stage": "Masterclass 5",
+   "title": "How AI makes true 1:1 personalization possible at scale [Hosted by Optimizely]"
+  },
+  {
+   "id": "c96fa3b0-44fe-495c-ab98-46370edcd8a8",
+   "from_day": "2026-11-11",
+   "from_start": "13:00",
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "17:15",
+   "stage": "Masterclass 3",
+   "title": "How sovereign is your tech stack? Hidden dependencies [Hosted by Firefox Enterprise]"
+  },
+  {
+   "id": "52f3328c-11d0-4734-ae68-93a08812259d",
+   "from_day": "2026-11-11",
+   "from_start": "16:00",
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "16:55",
+   "stage": "Stage 10",
+   "title": "Startup Qatar Showcase"
+  },
+  {
+   "id": "2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc",
+   "from_day": "2026-11-11",
+   "from_start": "16:30",
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "17:15",
+   "stage": "Masterclass 4",
+   "title": "Connecting Portuguese Startups to Global Markets: The Picklog Experience [Hosted by AICEP]"
+  },
+  {
+   "id": "196359eb-4cd7-4063-bdcc-c146e1acd576",
+   "from_day": "2026-11-11",
+   "from_start": "14:40",
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "16:50",
+   "stage": "Stage 8",
+   "title": "The instant economy: Why are we still waiting for our own money?"
+  },
+  {
+   "id": "e2d68390-d300-42d0-ac9a-bb730e4f5988",
+   "from_day": "2026-11-11",
+   "from_start": "16:08",
+   "day": "2026-11-12",
+   "start": "16:35",
+   "end": "16:46",
+   "stage": "Stage 9",
+   "title": "Agents don't need prompts, they need context"
+  },
+  {
+   "id": "79f1c8b1-4453-46c1-a37f-cb614d082cb8",
+   "from_day": "2026-11-11",
+   "from_start": "15:10",
+   "day": "2026-11-12",
+   "start": "16:40",
+   "end": "17:00",
+   "stage": "Centre Stage",
+   "title": "Rewriting the rules of female longevity"
+  },
+  {
+   "id": "b744405c-ae89-4d9b-a374-1aa1b602287e",
+   "from_day": "2026-11-11",
+   "from_start": "13:35",
+   "day": "2026-11-12",
+   "start": "16:50",
+   "end": "17:15",
+   "stage": "Centre Stage",
+   "title": "EU enlargement: Is bigger actually better?"
+  },
+  {
+   "id": "70dbfe60-5408-4d7a-abf6-29c2ef24be48",
+   "from_day": "2026-11-11",
+   "from_start": "19:00",
+   "day": "2026-11-12",
+   "start": "17:30",
+   "end": "20:30",
+   "stage": "Spaces Oriente",
+   "title": "AI Build Sprint: Ship a Business App for Your Ops"
+  },
+  {
+   "id": "44aa939c-b438-4c4f-9a19-24ab6a556c87",
+   "from_day": "2026-11-11",
+   "from_start": "18:00",
+   "day": "2026-11-12",
+   "start": "17:30",
+   "end": "20:30",
+   "stage": "Centre of Lisbon",
+   "title": "One Night in Lisbon with Replit"
+  },
+  {
+   "id": "cf23b423-17e9-4360-9bc0-f3022644375d",
+   "from_day": "2026-11-11",
+   "from_start": "10:50",
+   "day": "2026-11-12",
+   "start": "11:50",
+   "end": "12:10",
+   "stage": "Stage 13",
+   "title": "How AI turns visual understanding into real work",
+   "hidden": true
+  },
+  {
+   "id": "8c454979-5f0b-4842-a6dc-b39834a2b0dc",
+   "from_day": "2026-11-11",
+   "from_start": "11:45",
+   "day": "2026-11-12",
+   "start": "15:15",
+   "end": "15:35",
+   "stage": "Centre Stage",
+   "title": "The next financial crisis: Are we ready for what's coming?",
+   "hidden": true
+  },
+  {
+   "id": "a013b642-042b-495c-a386-2033b7386643",
+   "from_day": "2026-11-11",
+   "from_start": "14:30",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "16:00",
+   "stage": "The Whistleblower Bookshop",
+   "title": "Book signing: Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI",
+   "hidden": true
+  },
+  {
+   "id": "85ec8318-adeb-44f0-9de7-a2fd74c36c7f",
+   "from_day": "2026-11-11",
+   "from_start": "15:00",
+   "day": "2026-11-12",
+   "start": "12:30",
+   "end": "14:00",
+   "stage": "E468",
+   "title": "Meet the makers of Firefox Enterprise",
+   "hidden": true
+  },
+  {
+   "id": "89eccd64-724e-402b-9ddb-2b0d3f3bffc7",
+   "from_day": "2026-11-11",
+   "from_start": "16:40",
+   "day": "2026-11-12",
+   "start": "15:20",
+   "end": "15:40",
+   "stage": "Stage 13",
+   "title": "The death of the monolithic lab",
+   "hidden": true
+  }
+ ],
+ "changed": [
+  {
+   "id": "85b8ced1-669f-44e7-8c7d-e0e9f0012fcf",
+   "old": "10:00-10:05 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:00",
+   "end": "09:05",
+   "stage": "Stage 11",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "525c87ae-7a9a-4c00-b277-bae59da69d96",
+   "old": "10:10-10:15 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:00",
+   "end": "09:05",
+   "stage": "Stage 4",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "bdc2b588-a119-4008-9d5e-17fce614795a",
+   "old": "10:10-10:15 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:05",
+   "end": "09:10",
+   "stage": "Stage 13",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "7e842052-89e8-42dc-a085-3d56c8df9d2f",
+   "old": "10:25-10:30 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:05",
+   "end": "09:10",
+   "stage": "Stage 10",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15",
+   "old": "09:24-09:44 Centre Stage",
+   "fields": [
+    "start",
+    "end",
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "09:15",
+   "end": "10:00",
+   "stage": "Stage 14",
+   "title": "Breakout startups"
+  },
+  {
+   "id": "ce1d927e-dd4a-4aeb-b8d2-53bc61c11730",
+   "old": "10:05-10:10 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:20",
+   "end": "09:25",
+   "stage": "Stage 7",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "e08cbfe7-adc4-4617-bf9a-1de1d3c09265",
+   "old": "10:45-10:50 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:25",
+   "end": "09:30",
+   "stage": "Stage 9",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "1308148c-2333-4a98-9a7f-94bce272a8b3",
+   "old": "10:00-10:25 Developer Lounge",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:30",
+   "end": "09:55",
+   "stage": "Developer Lounge",
+   "title": "Data engineering meetup"
+  },
+  {
+   "id": "85346383-e810-432f-bc3e-9393f1379fef",
+   "old": "10:30-10:35 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:35",
+   "end": "09:40",
+   "stage": "Stage 3",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "b4f83909-eb72-4510-8199-e783f3bb9783",
+   "old": "10:35-10:55 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "09:40",
+   "end": "10:00",
+   "stage": "Stage 3",
+   "title": "Your website is an agent now"
+  },
+  {
+   "id": "f65bb4f3-c064-4b89-9387-4d6ec5f381ef",
+   "old": "10:05-10:30 Stage 11",
+   "fields": [
+    "start"
+   ],
+   "day": "2026-11-12",
+   "start": "10:10",
+   "end": "10:30",
+   "stage": "Stage 11",
+   "title": "Silicon valley after Trump: What the midterms mean for Big Tech and world"
+  },
+  {
+   "id": "afe1fd71-2a98-41e4-8707-9101353797b3",
+   "old": "10:30-10:50 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:10",
+   "end": "10:30",
+   "stage": "Stage 13",
+   "title": "When AI agents go rogue"
+  },
+  {
+   "id": "9fd40607-9fe9-4805-9831-dfffb69c5e35",
+   "old": "10:30-10:50 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:10",
+   "end": "10:30",
+   "stage": "Stage 10",
+   "title": "Taming the agent swarm"
+  },
+  {
+   "id": "1b010e55-f3e8-4163-a45a-9bdbad662f4c",
+   "old": "11:00-11:10 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:10",
+   "end": "10:20",
+   "stage": "Stage 9",
+   "title": "You onboarded 1, 000 users last month. How many were real?"
+  },
+  {
+   "id": "d78e5a3d-bb16-4d22-9c01-97e110c77981",
+   "old": "11:10-11:20 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:30",
+   "stage": "Stage 9",
+   "title": "How software ate the SIM: Unpacking the eSIM transition"
+  },
+  {
+   "id": "86823da2-8b14-46af-bad1-c95fae06bcf3",
+   "old": "11:00-11:20 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:40",
+   "stage": "Stage 5",
+   "title": "The future of fitness is personal & connected"
+  },
+  {
+   "id": "7f191c25-6a66-4cc2-9e56-1bbfdc2058e1",
+   "old": "10:10-10:30 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:40",
+   "stage": "Stage 7",
+   "title": "Ready or not here AI comes"
+  },
+  {
+   "id": "c76b53ae-75e7-48ce-88b2-155bc9a83d62",
+   "old": "11:20-11:35 E401",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "11:30",
+   "stage": "E401",
+   "title": "Meet the Co-Founder of HighLevel: Swag & 2 MacBook Giveaway!"
+  },
+  {
+   "id": "c0581238-2d66-434c-9e16-eee93fef3867",
+   "old": "10:30-10:55 Stage 11",
+   "fields": [
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:50",
+   "stage": "Stage 11",
+   "title": "Frontline Europe: AI, sovereignty and truth"
+  },
+  {
+   "id": "5a9218fe-6664-4d24-8053-2ba05e52e26c",
+   "old": "10:50-11:10 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:50",
+   "stage": "Stage 13",
+   "title": "The next leap in intelligence: From generating content to understanding the world"
+  },
+  {
+   "id": "4d6255ea-3462-459b-baaa-b9d623954fa4",
+   "old": "10:50-11:20 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "11:00",
+   "stage": "Stage 10",
+   "title": "Live Podcast: The Interface"
+  },
+  {
+   "id": "b868a44b-0497-4986-9c9a-271ffe5047a1",
+   "old": "10:55-11:20 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:50",
+   "end": "11:15",
+   "stage": "Stage 11",
+   "title": "The ethical alternatives to big tech"
+  },
+  {
+   "id": "7c7f4d31-cd59-4360-87c1-97086cf1a64f",
+   "old": "11:10-11:30 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:50",
+   "end": "11:10",
+   "stage": "Stage 13",
+   "title": "World models for the physical world"
+  },
+  {
+   "id": "b87caf7e-ebcf-4f16-8c18-a82162c93686",
+   "old": "11:40-11:50 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "10:51",
+   "end": "11:01",
+   "stage": "Stage 9",
+   "title": "The physical shadow of the digital economy"
+  },
+  {
+   "id": "ae54c818-b908-46ef-9ca3-c3430805a735",
+   "old": "11:40-12:00 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:20",
+   "stage": "Stage 10",
+   "title": "AI needs ground to stand on"
+  },
+  {
+   "id": "adcb8a0a-861b-4056-96d3-d18af7e13364",
+   "old": "11:15-11:35 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:20",
+   "stage": "Stage 3",
+   "title": "Heritage in motion: How digital is redefining the sports brand experience"
+  },
+  {
+   "id": "a341d762-6777-42f1-8fe9-33b39efa6e6c",
+   "old": "11:20-11:40 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:20",
+   "stage": "Stage 5",
+   "title": "The Women’s health data gap"
+  },
+  {
+   "id": "3cb952e3-31cd-4049-8eba-4f109ebd0bfb",
+   "old": "14:00-14:25 Meetup 2",
+   "fields": [
+    "start",
+    "end",
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:25",
+   "stage": "Mingle Area 5",
+   "title": "🏅 WHOOP community meetup"
+  },
+  {
+   "id": "2574d778-4f4a-49e7-9c1c-410e8a29ea57",
+   "old": "12:00-12:10 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:01",
+   "end": "11:11",
+   "stage": "Stage 9",
+   "title": "Lessons from building in a legal grey zone"
+  },
+  {
+   "id": "9bbc5c9c-2f97-4971-a675-803bde6adf3a",
+   "old": "11:10-11:30 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:05",
+   "end": "11:25",
+   "stage": "Stage 7",
+   "title": "Search, rebuilt for robots"
+  },
+  {
+   "id": "5f97343c-8243-4569-b68d-c07311570728",
+   "old": "11:30-11:50 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:10",
+   "end": "11:30",
+   "stage": "Stage 13",
+   "title": "The race to zero"
+  },
+  {
+   "id": "bb54e6d8-8439-47ec-b750-4aa607af6470",
+   "old": "11:20-11:30 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:11",
+   "end": "11:21",
+   "stage": "Stage 9",
+   "title": "Customers hold the secret sauce, and AI can't cook without it"
+  },
+  {
+   "id": "680593f7-6423-451c-a70c-5032e823687d",
+   "old": "11:20-11:40 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:15",
+   "end": "11:35",
+   "stage": "Stage 11",
+   "title": "USAID in memoriam"
+  },
+  {
+   "id": "835a1e8a-fce8-4aff-b93e-a52232417347",
+   "old": "12:00-12:20 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:20",
+   "end": "11:40",
+   "stage": "Stage 10",
+   "title": "Using data to build an ecosystem"
+  },
+  {
+   "id": "6d310f57-0a23-4602-a792-5e3d3c654a29",
+   "old": "11:40-12:00 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:20",
+   "end": "11:40",
+   "stage": "Stage 5",
+   "title": "Navigating AI in European health"
+  },
+  {
+   "id": "6f1c539e-8dbb-48bc-95ad-00a4aab2d6ac",
+   "old": "10:50-11:10 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:25",
+   "end": "11:45",
+   "stage": "Stage 7",
+   "title": "Pricing the physical world"
+  },
+  {
+   "id": "fad36198-b0af-4295-bec3-b7671b62e786",
+   "old": "11:50-12:10 Stage 13",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "11:50",
+   "stage": "Stage 13",
+   "title": "Beyond the model: Scaling AI agents for professional work"
+  },
+  {
+   "id": "bc131cd3-e862-4d88-8855-909418fbdda1",
+   "old": "15:30-15:55 Meetup 2",
+   "fields": [
+    "start",
+    "end",
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "11:55",
+   "stage": "Mingle Area 5",
+   "title": "🎬 Entertainment & media leaders meetup"
+  },
+  {
+   "id": "546b586a-6354-4d90-8245-29545dde55a0",
+   "old": "10:55-11:15 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:40",
+   "end": "12:00",
+   "stage": "Stage 3",
+   "title": "How podcasting rewired the talent deal"
+  },
+  {
+   "id": "00f4891b-ad5b-4282-87c8-f6e477f4003a",
+   "old": "12:00-12:30 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:40",
+   "end": "12:10",
+   "stage": "Stage 5",
+   "title": "Live Podcast: Just as Well"
+  },
+  {
+   "id": "0046bfc2-d75d-4cfa-b9ee-4141b49a0c4c",
+   "old": "12:20-12:40 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:40",
+   "end": "12:00",
+   "stage": "Stage 10",
+   "title": "Merge into history: Building the worldwide agentic web"
+  },
+  {
+   "id": "fb527dfc-9abd-4981-b2d4-b3462586e81f",
+   "old": "11:30-12:00 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:45",
+   "end": "12:15",
+   "stage": "Stage 7",
+   "title": "Live podcast: ICYMI"
+  },
+  {
+   "id": "b2637606-0596-4c3c-92b5-888006ec6145",
+   "old": "11:50-12:00 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:51",
+   "end": "12:01",
+   "stage": "Stage 9",
+   "title": "Music to my ears (and eyes): Why AI music starts with video"
+  },
+  {
+   "id": "c8c3669f-1cb6-477c-9e2c-649bd960261b",
+   "old": "11:45-12:45 The Whistleblower Bookshop",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:55",
+   "end": "12:55",
+   "stage": "The Whistleblower Bookshop",
+   "title": "Book signing: Into the Wood Chipper: A Whistleblower's Account of How the Trump Administration Shredded USAID by Nicholas Enrich"
+  },
+  {
+   "id": "aca5e692-9b05-4881-9147-11a1e580de5e",
+   "old": "11:35-11:55 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:55",
+   "end": "12:15",
+   "stage": "Stage 4",
+   "title": "The death of window shopping"
+  },
+  {
+   "id": "a1db5913-f58c-4670-82f1-6f322fcb215e",
+   "old": "12:05-12:25 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:55",
+   "end": "12:15",
+   "stage": "Stage 11",
+   "title": "The nerds who want to rule the world"
+  },
+  {
+   "id": "f28b852a-974c-4b6c-a01e-fc4d0c5340dd",
+   "old": "12:00-12:55 Meetup 6",
+   "fields": [
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Meetup 3",
+   "title": "🎯 Global marketers mixer meetup with Uplane"
+  },
+  {
+   "id": "920effc9-8f98-4489-a080-df39ddf82bd4",
+   "old": "11:35-11:55 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:20",
+   "stage": "Stage 3",
+   "title": "Does AI actually know what people want?"
+  },
+  {
+   "id": "66c7529f-b060-4e49-b9ba-817ae6db8f0e",
+   "old": "12:30-12:50 Stage 2",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:20",
+   "stage": "Stage 2",
+   "title": "Press conference: Road 2 Web Summit 2026 Winner"
+  },
+  {
+   "id": "53d083ac-79f1-48e0-8862-e236167233d8",
+   "old": "12:40-13:00 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:20",
+   "stage": "Stage 10",
+   "title": "Who holds the kill switch?"
+  },
+  {
+   "id": "ee1e1eec-a118-4dab-8082-1cd5c1fc51d8",
+   "old": "11:55-12:20 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:15",
+   "end": "12:40",
+   "stage": "Stage 4",
+   "title": "The sustainable balance sheet"
+  },
+  {
+   "id": "ac9e0071-0665-4a74-8781-a428c7c6773a",
+   "old": "12:15-12:35 Stage 3",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:20",
+   "end": "12:40",
+   "stage": "Stage 3",
+   "title": "Inside the creative collaborator era"
+  },
+  {
+   "id": "02ccc96a-ea93-4a70-92b6-a0663a6a4b67",
+   "old": "14:05-14:25 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:20",
+   "end": "12:40",
+   "stage": "Stage 10",
+   "title": "Vivaldi v Goliath: The case for sovereign code"
+  },
+  {
+   "id": "82e616b5-67bb-44f2-b4df-25642654fc0f",
+   "old": "12:30-12:45 Stage 8",
+   "fields": [
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:30",
+   "end": "12:50",
+   "stage": "Stage 8",
+   "title": "Is there a foreign operative on your payroll?"
+  },
+  {
+   "id": "578f181e-59af-4766-886f-b21c89727f37",
+   "old": "14:25-14:45 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:40",
+   "end": "13:00",
+   "stage": "Stage 10",
+   "title": "Beyond walled gardens: Building the open web for AI agents"
+  },
+  {
+   "id": "04e2a84e-384a-4e7f-96d6-7119d7e9bcb0",
+   "old": "12:45-13:05 Stage 8",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "12:50",
+   "end": "13:10",
+   "stage": "Stage 8",
+   "title": "Booking without borders: Securing a frictionless digital travel journey"
+  },
+  {
+   "id": "f11d9acc-8c03-490e-85e8-22854eedfd4f",
+   "old": "13:00-13:25 Meetup 6",
+   "fields": [
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:25",
+   "stage": "Meetup 3",
+   "title": "🎧 Music & tech innovators meetup with Muse Group"
+  },
+  {
+   "id": "8f74703e-c292-4c1a-85ea-48705b1a599b",
+   "old": "13:00-13:55 Meetup 3",
+   "fields": [
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 6",
+   "title": "🥾 Bootstrapped founders meetup"
+  },
+  {
+   "id": "436347c3-c272-47df-9170-90ea4e506e2e",
+   "old": "13:25-13:30 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:15",
+   "end": "13:20",
+   "stage": "Stage 4",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "0b8ddb93-3e30-451e-9ced-9ff12af2bec0",
+   "old": "13:20-13:25 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:15",
+   "end": "13:20",
+   "stage": "Stage 7",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "d40d6a74-a354-44ef-8831-90f7c1a803d0",
+   "old": "13:25-13:45 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:20",
+   "end": "13:40",
+   "stage": "Stage 7",
+   "title": "Why AI and SaaS need each other"
+  },
+  {
+   "id": "a630863c-3d0c-48ce-9884-3e1b20ec3541",
+   "old": "13:50-13:55 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:20",
+   "end": "13:25",
+   "stage": "Stage 9",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "156ac72a-38db-47f2-a5f2-206c12623bda",
+   "old": "13:30-13:50 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:20",
+   "end": "13:40",
+   "stage": "Stage 4",
+   "title": "Building Europe's circular economy infrastructure"
+  },
+  {
+   "id": "fc07c1fe-9ca0-47cf-bd30-9d8fd8fb0d5c",
+   "old": "13:55-14:06 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:25",
+   "end": "13:36",
+   "stage": "Stage 9",
+   "title": "Robots: Forever on the horizon, or finally within reach?"
+  },
+  {
+   "id": "7596d61e-28ef-4279-8a6b-18340e4bca3a",
+   "old": "16:30-16:55 Meetup 2",
+   "fields": [
+    "start",
+    "end",
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "13:30",
+   "end": "13:55",
+   "stage": "Meetup 3",
+   "title": "🛡️ Insurtech meetup"
+  },
+  {
+   "id": "2439de1b-9812-4000-8643-74ccd4b50098",
+   "old": "14:20-14:40 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:35",
+   "end": "13:55",
+   "stage": "Stage 5",
+   "title": "Selling sport: Has it gone too far? "
+  },
+  {
+   "id": "d4cb15ed-5cb3-4d1a-8cbb-8f68a03252a5",
+   "old": "13:50-14:10 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:40",
+   "end": "14:00",
+   "stage": "Stage 4",
+   "title": "The world builders: How new powers are reshaping the global order"
+  },
+  {
+   "id": "559a9535-874b-4102-8d2f-8e009b69a534",
+   "old": "13:45-14:05 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:40",
+   "end": "14:00",
+   "stage": "Stage 7",
+   "title": "The last mile for AI"
+  },
+  {
+   "id": "2701a938-524f-4c24-b0da-cb8fdd4e030b",
+   "old": "14:00-14:45 Developer Lounge",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:45",
+   "end": "14:30",
+   "stage": "Developer Lounge",
+   "title": "(A)Identity: Auth tips to secure AI agents and MCP servers"
+  },
+  {
+   "id": "a9f17d01-efb4-4bb3-a6fa-5da13faf2d0d",
+   "old": "14:00-14:20 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:55",
+   "end": "14:15",
+   "stage": "Stage 5",
+   "title": "The high-performance mindset"
+  },
+  {
+   "id": "4cc9645e-ea46-4bd7-9128-58f744ca7e00",
+   "old": "14:17-14:42 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:58",
+   "end": "14:23",
+   "stage": "Stage 9",
+   "title": "Unlocking human potential: how AI multiplies creative talent."
+  },
+  {
+   "id": "873d4ba6-9f17-44ad-a68d-dbd98a333e5d",
+   "old": "14:10-14:40 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:30",
+   "stage": "Stage 4",
+   "title": "East meets West: why AI products land differently across markets"
+  },
+  {
+   "id": "44f06dcf-3b45-44c9-ba28-755b0345c346",
+   "old": "12:00-12:55 Meetup 3",
+   "fields": [
+    "start",
+    "end",
+    "stage"
+   ],
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 5",
+   "title": "🇵🇸 Palestine meetup"
+  },
+  {
+   "id": "2bb27ace-17f4-4f46-bec9-c32c7beb2aa1",
+   "old": "11:00-11:20 Stage 2",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:20",
+   "stage": "Stage 2",
+   "title": "Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups"
+  },
+  {
+   "id": "17e05f6b-7335-4416-a362-6efcbe03475f",
+   "old": "14:05-14:25 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:20",
+   "stage": "Stage 7",
+   "title": "Beyond the pipeline: From single services to digital platforms"
+  },
+  {
+   "id": "ea2b9543-ae19-4c04-b78f-ed7468fa8c55",
+   "old": "14:45-15:05 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:05",
+   "end": "14:25",
+   "stage": "Stage 10",
+   "title": "AI watched 25 years of news. What did it see?"
+  },
+  {
+   "id": "ec898b82-49be-4add-a7a8-380eb9405b1f",
+   "old": "14:40-15:00 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:15",
+   "end": "14:35",
+   "stage": "Stage 5",
+   "title": "Inside the making of MOURINHO "
+  },
+  {
+   "id": "2c562b1c-dc45-4a72-8796-2425d5bb31b6",
+   "old": "14:15-14:35 Stage 14",
+   "fields": [
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:15",
+   "end": "14:40",
+   "stage": "Stage 14",
+   "title": "Beyond matchday: the next era of fan experience"
+  },
+  {
+   "id": "c9c52dbe-bd80-4c9d-87df-43690cbb226d",
+   "old": "14:25-14:45 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:20",
+   "end": "14:40",
+   "stage": "Stage 7",
+   "title": "Just raised $320 million. Now what?"
+  },
+  {
+   "id": "030e25b3-23d9-48c7-b35f-ec7182757813",
+   "old": "14:42-14:53 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:23",
+   "end": "14:34",
+   "stage": "Stage 9",
+   "title": "Beyond the dashboard: how AI agents are rewiring finance operations"
+  },
+  {
+   "id": "f6cba0c6-ad53-4826-bf16-15b7cd921652",
+   "old": "15:05-15:25 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:25",
+   "end": "14:45",
+   "stage": "Stage 10",
+   "title": "Just what the dev ordered: Healthcare’s AI revolution"
+  },
+  {
+   "id": "e6276948-d2f7-4565-95e4-9caccd1a5211",
+   "old": "15:00-15:55 Developer Lounge",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "15:25",
+   "stage": "Developer Lounge",
+   "title": "Be part of history: help build the first pages of the agentic web"
+  },
+  {
+   "id": "b278487c-413f-434b-ae4a-5005d6178b0b",
+   "old": "14:40-15:00 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "14:50",
+   "stage": "Stage 4",
+   "title": "Who wins when AI does the shopping?"
+  },
+  {
+   "id": "dd501227-b944-4eda-a618-66416b79451b",
+   "old": "14:53-15:04 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:34",
+   "end": "14:45",
+   "stage": "Stage 9",
+   "title": "Growth has rules: Speed breaks 'em"
+  },
+  {
+   "id": "9e5469da-4430-430f-9ada-277e3d2dc715",
+   "old": "14:45-15:05 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:40",
+   "end": "15:00",
+   "stage": "Stage 7",
+   "title": "Pricing SaaS when users are agents"
+  },
+  {
+   "id": "99d96d20-b0bd-496b-88be-be47fd3bf2c9",
+   "old": "14:35-14:55 Stage 14",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:40",
+   "end": "15:00",
+   "stage": "Stage 14",
+   "title": "Small team, big screen - one person, one laptop, one award-winning film"
+  },
+  {
+   "id": "9ebf2983-1d42-448f-a350-c945cb7b3278",
+   "old": "14:35-15:00 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:45",
+   "end": "15:10",
+   "stage": "Stage 11",
+   "title": "Woke 3.0: The next generation of the culture wars?"
+  },
+  {
+   "id": "843aa874-521d-432d-a019-8f4009bbd30b",
+   "old": "15:25-15:45 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:45",
+   "end": "15:05",
+   "stage": "Stage 10",
+   "title": "Decoding planet Earth"
+  },
+  {
+   "id": "a2ef1a29-5cad-4f40-b70b-bb10d29fe93d",
+   "old": "15:20-15:40 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:55",
+   "end": "15:15",
+   "stage": "Stage 5",
+   "title": "Building a brand from the baseline"
+  },
+  {
+   "id": "50bcd8bb-1a9e-4655-8d7e-6a5159c0f59b",
+   "old": "15:15-15:26 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "14:56",
+   "end": "15:07",
+   "stage": "Stage 9",
+   "title": "The smartphone in your pocket is your next lab"
+  },
+  {
+   "id": "7fbf1310-b284-42cb-86cb-0134c9a9bfd7",
+   "old": "14:55-15:15 Stage 14",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:20",
+   "stage": "Stage 14",
+   "title": "Reinventing icons: The new playbook for legendary IP"
+  },
+  {
+   "id": "780ad8d2-fd10-433d-a41e-030d8e9bf2ed",
+   "old": "15:05-15:25 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:20",
+   "stage": "Stage 7",
+   "title": "Why physical AI needs a new architecture"
+  },
+  {
+   "id": "b742e8f7-343c-4868-8eac-4b488f1351d9",
+   "old": "15:45-16:05 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:05",
+   "end": "15:25",
+   "stage": "Stage 10",
+   "title": "Rebuilding open source with AI: Lessons Learned"
+  },
+  {
+   "id": "0753d94e-3227-408e-b04d-a095ee327061",
+   "old": "15:26-15:37 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:07",
+   "end": "15:18",
+   "stage": "Stage 9",
+   "title": "AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late"
+  },
+  {
+   "id": "6771f24c-9b1e-4f13-8bd5-e2f5554eef0e",
+   "old": "15:00-15:20 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:10",
+   "end": "15:30",
+   "stage": "Stage 11",
+   "title": "The future of politics: Swiping right on Gen-Z"
+  },
+  {
+   "id": "6af6ece2-905c-4336-98db-2c712edd9263",
+   "old": "15:25-15:45 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:20",
+   "end": "15:40",
+   "stage": "Stage 7",
+   "title": "Betting against the moat"
+  },
+  {
+   "id": "51bbb4ce-4c05-4d17-9093-9f80d522775d",
+   "old": "15:15-15:35 Stage 14",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:20",
+   "end": "15:40",
+   "stage": "Stage 14",
+   "title": "Making silicon sexy: How Cerebras put hard tech in the spotlight"
+  },
+  {
+   "id": "4d65b445-1a3c-405e-be8a-54b7b4164ea2",
+   "old": "16:00-16:15 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:20",
+   "end": "15:40",
+   "stage": "Stage 4",
+   "title": "eVTOL is taking off"
+  },
+  {
+   "id": "7ef3a7f2-b5e9-443f-b206-b0d54a31cca2",
+   "old": "16:05-16:25 Stage 10",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:25",
+   "end": "15:45",
+   "stage": "Stage 10",
+   "title": "Zero turbulence: The AI engine behind global travel"
+  },
+  {
+   "id": "3d031b2b-de69-4f5f-a8e7-6c705c22561e",
+   "old": "15:48-15:59 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:29",
+   "end": "15:40",
+   "stage": "Stage 9",
+   "title": "Critical minerals in the next AI frontier"
+  },
+  {
+   "id": "9ca91b5b-9f9a-4a63-9c4c-4598d3f011a8",
+   "old": "16:00-16:25 Meetup 2",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "15:55",
+   "stage": "Meetup 2",
+   "title": "🏨 Unreasonable hospitality meetup"
+  },
+  {
+   "id": "97b4cce4-0a14-4f1a-a462-877da3079967",
+   "old": "15:40-16:00 Stage 4",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "15:50",
+   "stage": "Stage 4",
+   "title": "Spatial intelligence in physical retail"
+  },
+  {
+   "id": "9c1902d0-4ff4-4ecd-a983-0e8de326ba1f",
+   "old": "15:20-15:40 Centre Stage",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:35",
+   "end": "15:55",
+   "stage": "Centre Stage",
+   "title": "Chinamaxxing: The new era of Made in China"
+  },
+  {
+   "id": "00641f3a-59d7-48e8-9dd8-0146e653cbb2",
+   "old": "15:45-16:05 Stage 7",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:40",
+   "end": "16:00",
+   "stage": "Stage 7",
+   "title": "MIT €100K: designed in Portugal, built for the world"
+  },
+  {
+   "id": "7527cc4e-4620-4890-9542-d68f9434e7a1",
+   "old": "15:40-16:00 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:50",
+   "end": "16:10",
+   "stage": "Stage 11",
+   "title": "Deus ex machina: Can AI replace God?"
+  },
+  {
+   "id": "9baf35c7-6e54-458a-b741-6fd9fefee613",
+   "old": "15:40-16:00 Centre Stage",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:55",
+   "end": "16:20",
+   "stage": "Centre Stage",
+   "title": "Hollywood's identity crisis"
+  },
+  {
+   "id": "c73ae164-94c2-41c9-b9fd-eb8093fba74c",
+   "old": "16:40-17:00 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:20",
+   "stage": "Stage 11",
+   "title": "Digital transformation and dynamism in service delivery"
+  },
+  {
+   "id": "70ebc778-7f2f-48b0-b2e8-79614a979592",
+   "old": "16:00-16:20 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "16:10",
+   "end": "16:30",
+   "stage": "Stage 11",
+   "title": "Integration or assimilation? The immigration debate"
+  },
+  {
+   "id": "45a6847e-375b-487a-bf66-f85bf4e9753d",
+   "old": "16:00-16:20 Centre Stage",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "16:20",
+   "end": "16:40",
+   "stage": "Centre Stage",
+   "title": "Who gets a say in football’s future?"
+  },
+  {
+   "id": "17dc2f11-bae6-414b-96cd-49884b371807",
+   "old": "14:06-14:17 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "16:24",
+   "end": "16:35",
+   "stage": "Stage 9",
+   "title": "From missing sunlight to a growth story"
+  },
+  {
+   "id": "81b6bd43-9124-44e1-af13-5385a63a086b",
+   "old": "16:20-16:40 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "16:30",
+   "end": "16:50",
+   "stage": "Stage 11",
+   "title": "Investigative journalism under threat"
+  },
+  {
+   "id": "734552b8-9d27-412f-92fd-6d43b1fd7124",
+   "old": "11:40-12:05 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:50",
+   "end": "14:15",
+   "stage": "Stage 11",
+   "title": "The power of protest",
+   "hidden": true
+  },
+  {
+   "id": "9c45d024-6059-4526-90cf-70b8e6f95ef7",
+   "old": "12:20-12:30 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "11:21",
+   "end": "11:31",
+   "stage": "Stage 9",
+   "title": "AI wants your money. Can you trust it?",
+   "hidden": true
+  },
+  {
+   "id": "3de6d6d2-15a3-450c-a6d2-8b15dd08a0f5",
+   "old": "13:15-13:40 Stage 5",
+   "fields": [
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "13:15",
+   "end": "13:35",
+   "stage": "Stage 5",
+   "title": "Where is the value in football?",
+   "hidden": true
+  },
+  {
+   "id": "5eec90c7-86e6-4514-9bed-901cac5d6ce3",
+   "old": "15:20-15:40 Stage 11",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:30",
+   "end": "15:50",
+   "stage": "Stage 11",
+   "title": "AI empowering marginalised communities",
+   "hidden": true
+  },
+  {
+   "id": "54f69e27-cdcf-4455-86a8-e1a0f0a1e4b5",
+   "old": "15:35-15:55 Stage 14",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:40",
+   "end": "16:00",
+   "stage": "Stage 14",
+   "title": "Reset velocity: from attention to connection",
+   "hidden": true
+  },
+  {
+   "id": "e02161ed-cbc3-460b-86cc-1c2a6a884b6e",
+   "old": "15:37-15:48 Stage 9",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:18",
+   "end": "15:29",
+   "stage": "Stage 9",
+   "title": "Three companies before product-market fit: What each one taught us",
+   "hidden": true
+  },
+  {
+   "id": "75a4bb90-2dc1-412a-b8e2-edf0a60f15bc",
+   "old": "15:40-16:00 Stage 5",
+   "fields": [
+    "start",
+    "end"
+   ],
+   "day": "2026-11-12",
+   "start": "15:15",
+   "end": "15:35",
+   "stage": "Stage 5",
+   "title": "Achieving the impossible",
+   "hidden": true
+  }
+ ],
+ "new": [
+  {
+   "id": "235f23a6-ed30-41eb-b5a6-35b2d5fabd5b",
+   "day": "2026-11-12",
+   "start": "09:50",
+   "end": "09:55",
+   "stage": "Women in tech Lounge",
+   "title": "Women in tech selfie 📸"
+  },
+  {
+   "id": "b8b6a17e-741f-482a-a654-8f0e9b6aac75",
+   "day": "2026-11-12",
+   "start": "10:00",
+   "end": "10:55",
+   "stage": "Mingle Area 6",
+   "title": "🎨 Craftspeople & artists meetup"
+  },
+  {
+   "id": "7ea0715b-d55a-42fa-b6e9-e42a65a1dfd0",
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:40",
+   "stage": "E145",
+   "title": "Lisbon: a Case Study for Real Innovation, Real Impact [Cancelled]"
+  },
+  {
+   "id": "3a9fb6a3-e5d5-4fcb-bdee-b90665967575",
+   "day": "2026-11-12",
+   "start": "10:20",
+   "end": "10:40",
+   "stage": "E145",
+   "title": "Lisbon: Improving Citizens’ lives through innovation"
+  },
+  {
+   "id": "c96fe987-de82-452f-bf4a-170611f8a947",
+   "day": "2026-11-12",
+   "start": "10:30",
+   "end": "10:55",
+   "stage": "Meetup 2",
+   "title": "🤝 Leading teams through movement"
+  },
+  {
+   "id": "29e1ad30-679a-4a0a-8da6-425fe0851e48",
+   "day": "2026-11-12",
+   "start": "10:40",
+   "end": "10:51",
+   "stage": "Stage 9",
+   "title": "From AI prototypes to trusted business software"
+  },
+  {
+   "id": "da408f28-b753-4f09-b7c4-b42e6761337f",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:30",
+   "stage": "E268",
+   "title": "Discover opportunities in the UAE"
+  },
+  {
+   "id": "5cd1999f-be58-4b23-917b-24925b91deb8",
+   "day": "2026-11-12",
+   "start": "11:00",
+   "end": "11:55",
+   "stage": "Mingle Area 6",
+   "title": "🔄 Change management meetup"
+  },
+  {
+   "id": "61182d50-6f99-4198-b215-f426e2deacaf",
+   "day": "2026-11-12",
+   "start": "11:30",
+   "end": "12:00",
+   "stage": "E345",
+   "title": "Introduction to Media City Qatar"
+  },
+  {
+   "id": "0209c6e3-ca70-4869-92d2-6ab2d359cd19",
+   "day": "2026-11-12",
+   "start": "11:41",
+   "end": "11:51",
+   "stage": "Stage 9",
+   "title": "The borderless advantage: How AI's fastest-growing companies are building world-class teams"
+  },
+  {
+   "id": "cfc9da37-1584-443c-b395-78d005524b73",
+   "day": "2026-11-12",
+   "start": "11:45",
+   "end": "12:05",
+   "stage": "Centre Stage",
+   "title": "The race for industrial AI: can Europe win?"
+  },
+  {
+   "id": "cec7662d-eae2-487f-adc9-b2c6637da347",
+   "day": "2026-11-12",
+   "start": "11:45",
+   "end": "12:25",
+   "stage": "E494",
+   "title": "Come Meet the Future of Leadership with LIA!"
+  },
+  {
+   "id": "dd21b75b-8a90-41ce-8d9b-ead867fe9585",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:30",
+   "stage": "E268",
+   "title": "Test emerging tech. Inform future legislation."
+  },
+  {
+   "id": "85a1d497-7ff9-41e7-8c38-ac9c5c2f3ae9",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:20",
+   "stage": "E145",
+   "title": "Get to Know the Unicorn Factory's Innovation Hubs [Cancelled]"
+  },
+  {
+   "id": "8428372f-baf1-4fd5-9d65-2db53973e4a7",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:30",
+   "stage": "E245",
+   "title": "Accelerating innovation for the energy transition in Europe"
+  },
+  {
+   "id": "18627463-b971-4dd7-90c1-bb2758e2f0b8",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:55",
+   "stage": "Mingle Area 6",
+   "title": "🌐 Remote team leaders meetup"
+  },
+  {
+   "id": "16091f8a-e83e-4e8a-99fb-62a8dcb708eb",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:30",
+   "stage": "E345",
+   "title": "Learn About the Startup Qatar Investment Program"
+  },
+  {
+   "id": "0f715687-1e02-4b53-98c4-9f06efdc1c6c",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "12:20",
+   "stage": "E145",
+   "title": "Healthhub Open Innovation Showcase: Show up before the problem does"
+  },
+  {
+   "id": "5afaf7b8-0555-46af-8f90-93c91ff626d8",
+   "day": "2026-11-12",
+   "start": "12:10",
+   "end": "12:30",
+   "stage": "Stage 13",
+   "title": "The future of work: Human talent meets AI"
+  },
+  {
+   "id": "11fc1d52-6e11-433c-bdf8-88addad973f0",
+   "day": "2026-11-12",
+   "start": "12:30",
+   "end": "13:00",
+   "stage": "E245",
+   "title": "Expanding into the U.S. Market: Opportunities, Challenges & Compliance Requirements"
+  },
+  {
+   "id": "a3f3d41b-6477-4dbb-9963-e6b8460f230a",
+   "day": "2026-11-12",
+   "start": "12:40",
+   "end": "13:00",
+   "stage": "E145",
+   "title": "Global Scaling Up Program Launch in Portugal, UAE, Brazil and US"
+  },
+  {
+   "id": "0c46df92-4b36-4d2e-9e04-6d786cb3e19e",
+   "day": "2026-11-12",
+   "start": "12:40",
+   "end": "13:00",
+   "stage": "E145",
+   "title": "Ready to Scale? Inside Unicorn Factory Lisboa’s Scaling Up Program [Cancelled]"
+  },
+  {
+   "id": "43576352-a9ec-4bae-9f7a-ea7c66336cea",
+   "day": "2026-11-12",
+   "start": "12:45",
+   "end": "13:05",
+   "stage": "Stage 2",
+   "title": "Press conference: Web Summit Spotlight heads to Paraíba as part of four-year partnership"
+  },
+  {
+   "id": "f2c14981-e912-4b3a-a386-605539e4e458",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:30",
+   "stage": "E477",
+   "title": "The path to governed AI app development"
+  },
+  {
+   "id": "e817b0c5-d8ca-4e12-be81-1861591f3c91",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:30",
+   "stage": "E245",
+   "title": "Behind the Investment Decision: Reverse Pitch"
+  },
+  {
+   "id": "cb1ff72a-3cb0-44dc-969b-321f3b0495ad",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:45",
+   "stage": "Masterclass 2",
+   "title": "The future of digital finance beyond banking [Hosted by Wio Bank]"
+  },
+  {
+   "id": "ac6f7ca5-214b-499f-95b0-85ca7d015f76",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:55",
+   "stage": "Mingle Area 5",
+   "title": "👩 Women investors meetup"
+  },
+  {
+   "id": "7107a282-bec9-4576-898a-47fb74c99b58",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "14:00",
+   "stage": "E342",
+   "title": "Building Startup Growth Through the Power of the Global Innovation Ecosystem"
+  },
+  {
+   "id": "307c14e5-a409-42c5-8841-3e6dc80536ba",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:30",
+   "stage": "E268",
+   "title": "Hub71: Abu Dhabi’s global tech ecosystem"
+  },
+  {
+   "id": "2156842d-4e81-4568-a41d-0136e996bb61",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:50",
+   "stage": "Community Space",
+   "title": "🏳️‍🌈 LGBTQIA+ in tech meetup"
+  },
+  {
+   "id": "16867da7-7db1-49e4-90bf-1576f1dd42b8",
+   "day": "2026-11-12",
+   "start": "13:00",
+   "end": "13:05",
+   "stage": "Stage 14",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "bd1db01b-6d0d-40e0-b48e-5fe2c9ee531b",
+   "day": "2026-11-12",
+   "start": "13:36",
+   "end": "13:47",
+   "stage": "Stage 9",
+   "title": "Behind the interface: The technical blueprints that survive scale"
+  },
+  {
+   "id": "7d7c2bbb-bc2b-4eb6-8c0f-5078b124f35a",
+   "day": "2026-11-12",
+   "start": "13:55",
+   "end": "14:00",
+   "stage": "Stage 3",
+   "title": "Opening remarks"
+  },
+  {
+   "id": "d1bc931d-428a-4a06-bbf5-35fc3cff6a07",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "14:55",
+   "stage": "Mingle Area 6",
+   "title": "⚖️ Tech ethicists & policy makers meetup"
+  },
+  {
+   "id": "9aefdbc2-f74c-4992-ac0e-fab87d465534",
+   "day": "2026-11-12",
+   "start": "14:00",
+   "end": "15:00",
+   "stage": "E203",
+   "title": "Belgian Chocolates, Safe Data & Digital e-signing"
+  },
+  {
+   "id": "a84c9139-d4bd-4a63-8a68-f3acde45d75e",
+   "day": "2026-11-12",
+   "start": "14:20",
+   "end": "14:40",
+   "stage": "Centre Stage",
+   "title": "Open models, stronger ecosystems"
+  },
+  {
+   "id": "f45ece2d-fef8-442a-a6f0-4ec62f7fa105",
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "14:50",
+   "stage": "Stage 2",
+   "title": "Campus Tejo, the science and technology ecosystem of Santarém (Press conference)"
+  },
+  {
+   "id": "4a3d1ed7-6f89-4d70-b2ed-306139a484af",
+   "day": "2026-11-12",
+   "start": "14:30",
+   "end": "15:15",
+   "stage": "Masterclass 5",
+   "title": "Talents for the Future: Strategic Skills [Hosted by MCTI]"
+  },
+  {
+   "id": "ccb109bf-f3d3-472a-afe4-4b5e3abf3944",
+   "day": "2026-11-12",
+   "start": "14:40",
+   "end": "15:00",
+   "stage": "E145",
+   "title": "Innovation Pulse 2026: The Numbers Behind and the Road to 2027 [Cancelled]"
+  },
+  {
+   "id": "9f726a3a-f715-4bba-a6f9-5667dffb3c28",
+   "day": "2026-11-12",
+   "start": "14:40",
+   "end": "15:00",
+   "stage": "E145",
+   "title": "Spotlight Stage: Startups to Watch"
+  },
+  {
+   "id": "d9993a76-8db7-49b6-988b-b8b0da754e36",
+   "day": "2026-11-12",
+   "start": "14:45",
+   "end": "14:56",
+   "stage": "Stage 9",
+   "title": "The bet on autonomous earthmovers and physical AI"
+  },
+  {
+   "id": "af59c06a-d924-43b9-91ef-7f40d8fcbc0b",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 6",
+   "title": "🏙️ Smart cities & urban mobility meetup"
+  },
+  {
+   "id": "98439371-dee1-4f7f-99ba-85971bf15fc1",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 2",
+   "title": "🤖⚡ AI agent developers meetup"
+  },
+  {
+   "id": "46bdc7de-3ae2-4db2-b5e3-3253b9505f3f",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:20",
+   "stage": "Stage 13",
+   "title": "There is no ghost in the machine"
+  },
+  {
+   "id": "0616ff82-e4be-4af3-b084-8e7d30ce6b1b",
+   "day": "2026-11-12",
+   "start": "15:00",
+   "end": "15:55",
+   "stage": "Mingle Area 5",
+   "title": "🔄 Career changers over 40 meetup"
+  },
+  {
+   "id": "ce3d2115-66b8-46fc-987a-6d2f8980d9e8",
+   "day": "2026-11-12",
+   "start": "15:10",
+   "end": "15:20",
+   "stage": "Centre Stage",
+   "title": "Closing remarks"
+  },
+  {
+   "id": "f224bb21-ce9f-4a00-b4f9-d56a3f1da545",
+   "day": "2026-11-12",
+   "start": "15:45",
+   "end": "16:05",
+   "stage": "Stage 10",
+   "title": "Give your agent a name"
+  },
+  {
+   "id": "f8e1a2b0-9fcc-4eb1-94f8-ec7de804c2ba",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 6",
+   "title": "🕯️ Burnout recovery meetup"
+  },
+  {
+   "id": "dceeb1b2-4e55-4e85-82c2-bab34c996344",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:20",
+   "stage": "Stage 13",
+   "title": "From innovation to impact: Funding the future"
+  },
+  {
+   "id": "99c61f09-4cf7-4f0f-8576-a0e971b0ec22",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Mingle Area 5",
+   "title": "🎨 Design thinking meetup"
+  },
+  {
+   "id": "188f22e2-913f-4efb-9515-ae2349796e5d",
+   "day": "2026-11-12",
+   "start": "16:00",
+   "end": "16:55",
+   "stage": "Meetup 6",
+   "title": "🇵🇹 Portugal meetup"
+  },
+  {
+   "id": "b22cdf57-4bed-48ab-97a8-930c01246ce5",
+   "day": "2026-11-12",
+   "start": "16:46",
+   "end": "16:57",
+   "stage": "Stage 9",
+   "title": "Microdramas and the rise of the one-person studio"
+  },
+  {
+   "id": "5e36c697-e193-46e7-83d2-a96e3bc29a28",
+   "day": "2026-11-12",
+   "start": "16:57",
+   "end": "17:08",
+   "stage": "Stage 9",
+   "title": "The blueprint for universal care at scale"
+  },
+  {
+   "id": "dd59d9e6-83e1-48e9-9762-9ef67733a342",
+   "day": "2026-11-12",
+   "start": "21:00",
+   "end": "02:00",
+   "stage": "Fábrica de Pão, Beato Innovation District",
+   "title": "Lisboa Web Summit After Party"
+  },
+  {
+   "id": "12e27d3c-c84f-43c9-8e4c-f539401e13d3",
+   "day": "2026-11-12",
+   "start": "12:00",
+   "end": "13:00",
+   "stage": "E148",
+   "title": "Get in touch with the Dutch!"
+  }
+ ],
+ "gone": [
+  {
+   "id": "4eb08bfb-bd80-4024-8f35-7ea418b8fa87",
+   "title": "What to expect in the new era of expecting",
+   "old": "10:20 Stage 5",
+   "now": "no page (404)"
+  },
+  {
+   "id": "8be63397-1451-4af9-b5f2-8ce947bc5cba",
+   "title": "Escaping the AI pilot purgatory",
+   "old": "10:30 Stage 7",
+   "now": "no page (404)"
+  },
+  {
+   "id": "7c1d3f45-a2b1-43d8-bd02-3cad53985b1f",
+   "title": "Built to last: The reinvention and reimagining of iconic brands",
+   "old": "10:35 Stage 14",
+   "now": "no page (404)"
+  },
+  {
+   "id": "5faacf74-8493-412c-a03e-ca82993cee91",
+   "title": "Connecting the bots: Building secure infrastructure for inter-agent communication",
+   "old": "10:50 Stage 9",
+   "now": "no page (404)"
+  },
+  {
+   "id": "46aaecb8-2260-411d-b104-ee8956239586",
+   "title": "📣 Beyond the stage on raising from US investors with Larry Li",
+   "old": "11:00 Meetup 2",
+   "now": "2026-11-10 13:30 Meetup 2"
+  },
+  {
+   "id": "74ceac99-f062-4bbf-9fc2-839c8ade7049",
+   "title": "Beyond unhinged: Duolingo’s next chapter",
+   "old": "11:20 Stage 14",
+   "now": "no page (404)"
+  },
+  {
+   "id": "5b75427f-ce09-4274-a2b7-5200b8d665bf",
+   "title": "Stop feeding the algorithm, start owning the IP",
+   "old": "11:55 Stage 3",
+   "now": "no page (404)"
+  },
+  {
+   "id": "1de6a591-ec17-4399-8f28-13f4bff1cae1",
+   "title": "Who let the agent in?",
+   "old": "12:00 Stage 7",
+   "now": "no page (404)"
+  },
+  {
+   "id": "ea619530-419a-48f1-9429-73f24a5f7773",
+   "title": "Debunking the myth of a 'winner-takes-all' market",
+   "old": "12:10 Stage 9",
+   "now": "no page (404)"
+  },
+  {
+   "id": "5dfd665c-ea99-4af8-a6bc-d7db346d30c4",
+   "title": "Creating a sport brand from scratch",
+   "old": "12:35 Stage 3",
+   "now": "no page (404)"
+  },
+  {
+   "id": "7e66baa2-493f-4228-90d9-42861cd46717",
+   "title": "Securing the software foundation of civilisation with AI",
+   "old": "13:40 Stage 13",
+   "now": "no page (404)"
+  },
+  {
+   "id": "75f6acd0-31cb-4a37-903c-5584e9bed791",
+   "title": "UEFA and the future of the fan",
+   "old": "13:40 Stage 5",
+   "now": "no page (404)"
+  },
+  {
+   "id": "503f5023-724d-4d67-b7fc-99e846408de9",
+   "title": "Web Summit Hackathon | Winners announcement",
+   "old": "13:45 Developer Lounge",
+   "now": "no page (404)"
+  },
+  {
+   "id": "dc148c4e-d640-4d10-a5f0-d374b6187774",
+   "title": "Opening remarks",
+   "old": "14:10 Stage 11",
+   "now": "no page (404)"
+  },
+  {
+   "id": "b284179b-b23b-4979-a7cd-3a902e5162f3",
+   "title": "The election interference we don't talk about",
+   "old": "14:15 Stage 11",
+   "now": "no page (404)"
+  },
+  {
+   "id": "2ea2b8bd-14f8-45f7-90c5-b1d202be6263",
+   "title": "Health's data shift: From episodic care to continuous prevention",
+   "old": "14:40 Stage 13",
+   "now": "no page (404)"
+  },
+  {
+   "id": "0bf19cdf-4170-4569-b8d8-5c8542a08103",
+   "title": "🇮🇪 Ireland meetup with Enterprise Ireland",
+   "old": "15:00 Meetup 1",
+   "now": "2026-11-10 14:00 Meetup 6"
+  },
+  {
+   "id": "ba159301-0118-4281-bf13-71b3d3598f2c",
+   "title": "Why structured data is AI's real frontier",
+   "old": "15:00 Stage 13",
+   "now": "no page (404)"
+  },
+  {
+   "id": "77d770f1-b299-401a-834b-f96d498089a4",
+   "title": "How LALIGA is shaping football's AI future",
+   "old": "15:00 Stage 5",
+   "now": "no page (404)"
+  },
+  {
+   "id": "ddf71544-cfd7-44d6-a77f-882c8fbd4ffb",
+   "title": "The business behind the badge",
+   "old": "15:20 Stage 5",
+   "now": "no page (404)"
+  },
+  {
+   "id": "a433a1bc-b53a-4689-a8f8-c7eb8088148c",
+   "title": "Search built for AI agents",
+   "old": "15:40 Stage 13",
+   "now": "no page (404)"
+  },
+  {
+   "id": "e2c9f61a-14e7-40ea-accf-075097d406cf",
+   "title": "🚋 Lisbon locals meetup",
+   "old": "16:00 Meetup 6",
+   "now": "no page (404)"
+  },
+  {
+   "id": "dea217b2-6cf6-4b44-b508-d04754c0b367",
+   "title": "Brazil's blueprint for cyber resilience",
+   "old": "16:10 Stage 8",
+   "now": "2026-11-11 14:32 Stage 7"
+  }
+ ]
+}
